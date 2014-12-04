@@ -36,7 +36,7 @@ You are free to use, modify, or redistribute this software in any way you want, 
 
 **Matlab implementation** <small>([user guide](User_guide.pdf))</small> | [All platforms](code/tSNE_matlab.zip)
 **CUDA implementation** <small>(using code by [Alex](http://www.cs.toronto.edu/~kriz/))</small> | [All platforms](code/tSNE_CUDA.zip)
-**Binary implementation** <small>(wrappers for [Matlab](code/tsne_binary_wrapper_matlab.zip) and [Python](code/tsne_binary_wrapper_python.zip))</small> | [Linux](code/tSNE_linux.tar.gz); [OS X](code/tSNE_maci.tar.gz); Windows
+**Binary implementation** <small>(wrappers for [Matlab](code/tsne_binary_wrapper_matlab.zip) and [Python](code/tsne_binary_wrapper_python.zip))</small> | [Linux](code/tSNE_linux.tar.gz); [OS X](code/tSNE_maci.tar.gz); [Windows](code/tSNE_windows.zip)
 **Python implementation** | [All platforms](code/tsne_python.zip)
 **Torch implementation** | [All platforms](https://github.com/clementfarabet/manifold)
 **Julia implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/TSne.jl)
