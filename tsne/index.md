@@ -71,6 +71,7 @@ Some results of our experiments with t-SNE are available for download below. In 
 
 You may right-click on the images and select "Show image in new tab" to see a larger version of each of the images.
 
+<br />
 You may also be interested in these blog posts describing applications of t-SNE by [Andrej Karpathy](http://karpathy.ca/myblog/?p=707), [Paul Mineiro](http://www.machinedlearnings.com/2011/06/even-better-hashtag-similarity.html), [Alexander Fabisch](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0c648de22eff4a2a3e/raw/59d5bc5ed8f8bfd9ff1f7faa749d1b095aa97d5a/t-SNE.ipynb), [Justin Donaldson](http://scwn.net), and [Henry Tan](http://www.codeproject.com/Tips/788739/Visualization-of-High-Dimensional-Data-using-t-SNE).
 
 ---
