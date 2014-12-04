@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Curriculum Vitae
+  url: /cv/
+
+#- title: Research
+#  url: /research/
+
+- title: Publications
+  url: /publications/
+
+- title: Software
+  url: /software/
+
+- title: Contact
+  url: /contact/

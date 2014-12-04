@@ -1,0 +1,433 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>t-SNE &#8211; Laurens van der Maaten</title>
+<meta name="description" content="t-SNE">
+<meta name="keywords" content="">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="t-SNE">
+<meta name="twitter:description" content="t-SNE">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://lvdmaaten.github.io/images/sample-image-6.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="t-SNE">
+<meta property="og:description" content="t-SNE">
+<meta property="og:url" content="http://lvdmaaten.github.io/tsne/">
+<meta property="og:site_name" content="Laurens van der Maaten">
+
+
+
+
+
+<link rel="canonical" href="http://lvdmaaten.github.io/tsne/">
+<link href="http://lvdmaaten.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Laurens van der Maaten Feed">
+<link rel="author" href="http://plus.google.com/+LaurensvanderMaaten?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://lvdmaaten.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://lvdmaaten.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://lvdmaaten.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://lvdmaaten.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://lvdmaaten.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://lvdmaaten.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://lvdmaaten.github.io">Laurens van der Maaten</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/cv/" >Curriculum Vitae</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/publications/" >Publications</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/software/" >Software</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/contact/" >Contact</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+  <div class="image-wrap">
+  <img src=
+    
+      "http://lvdmaaten.github.io/images/sample-image-6.jpg"
+    
+  alt="t-SNE feature image">
+  
+  </div><!-- /.image-wrap -->
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://lvdmaaten.github.io/images/laurens.png" class="bio-photo" alt="Laurens van der Maaten bio photo">
+
+<h3>Laurens van der Maaten</h3>
+<p>Assistant Professor in machine learning and computer vision.</p>
+<a href="mailto:lvdmaaten@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+LaurensvanderMaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+
+
+
+<a href="http://github.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+  </div>
+  <article class="page">
+    <h1>t-SNE</h1>
+    <div class="article-wrap">
+      <section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#implementations">Implementations</a></li>
+  <li><a href="#examples">Examples</a></li>
+  <li><a href="#faq">FAQ</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<p>t-Distributed Stochastic Neighbor Embedding (t-SNE) is a (<a href="http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/">prize-winning</a>) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:</p>
+
+<ul>
+  <li>L.J.P. van der Maaten. <strong>Accelerating t-SNE using Tree-Based Algorithms</strong>. <em>Journal of Machine Learning Research</em> 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/JMLR_2014.pdf">PDF</a> <small>[<a href="../publications/misc/Supplement_JMLR_2014.pdf">Supplemental material</a>]</small></li>
+  <li>L.J.P. van der Maaten and G.E. Hinton. <strong>Visualizing Non-Metric Similarities in Multiple Maps</strong>. <em>Machine Learning</em> 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/MachLearn_2012.pdf">PDF</a></li>
+  <li>L.J.P. van der Maaten. <strong>Learning a Parametric Embedding by Preserving Local Structure</strong>. In <em>Proceedings of the Twelfth International Conference on Artificial Intelligence &amp; Statistics (AI-STATS), JMLR W&amp;CP</em> 5:384-391, 2009. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/AISTATS_2009.pdf">PDF</a></li>
+  <li>L.J.P. van der Maaten and G.E. Hinton. <strong>Visualizing High-Dimensional Data Using t-SNE</strong>. <em>Journal of Machine Learning Research</em> 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/JMLR_2008.pdf">PDF</a> <small>[<a href="../publications/misc/Supplement_JMLR_2008.pdf">Supplemental material</a>] [<a href="https://www.youtube.com/watch?v=RJVL80Gg3lA&amp;list=UUtXKDgv1AVoG88PLl8nGXmw">Talk</a>]</small>
+An accessible introduction to t-SNE and its variants is given in this <a href="https://www.youtube.com/watch?v=RJVL80Gg3lA&amp;list=UUtXKDgv1AVoG88PLl8nGXmw">Google Techtalk</a>.</li>
+</ul>
+
+<hr />
+
+<h2 id="implementations">Implementations</h2>
+
+<p>Below, implementations of t-SNE in various languages are available for download. Some of these implementations were developed by me, and some by other contributors. For the standard t-SNE method, implementations in Matlab, C++, CUDA, Python, Torch, R, Julia, and JavaScript are available. In addition, we provide a Matlab implementation of parametric t-SNE (described <a href="../publications/papers/AISTATS_2009.pdf">here</a>). Finally, we provide a Barnes-Hut implementation of t-SNE (described <a href="../publications/papers/JMLR_2014.pdf">here</a>), which is the fastest t-SNE implementation to date, and which scales much better to big data sets.</p>
+
+<p>You are free to use, modify, or redistribute this software in any way you want, but only for non-commercial purposes. The use of the software is at your own risk; the authors are not responsible for any damage as a result from errors in the software.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>Matlab implementation</strong> <small>(<a href="User_guide.pdf">user guide</a>)</small></td>
+      <td><a href="code/tSNE_matlab.zip">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>CUDA implementation</strong> <small>(using code by <a href="http://www.cs.toronto.edu/~kriz/">Alex</a>)</small></td>
+      <td><a href="code/tSNE_CUDA.zip">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>Binary implementation</strong> <small>(wrappers for <a href="code/tsne_binary_wrapper_matlab.zip">Matlab</a> and <a href="code/tsne_binary_wrapper_python.zip">Python</a>)</small></td>
+      <td><a href="code/tSNE_linux.tar.gz">Linux</a>; <a href="code/tSNE_maci.tar.gz">OS X</a>; Windows</td>
+    </tr>
+    <tr>
+      <td><strong>Python implementation</strong></td>
+      <td><a href="code/tsne_python.zip">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>Torch implementation</strong></td>
+      <td><a href="https://github.com/clementfarabet/manifold">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>Julia implementation</strong> <small>(by Leif Jonsson)</small></td>
+      <td><a href="https://github.com/lejon/TSne.jl">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>R implementation</strong> <small>(by <a href="http://scwn.net">Justin</a>)</small></td>
+      <td><a href="http://cran.r-project.org/web/packages/tsne/">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>JavaScript implementation</strong> <small>(by <a href="http://cs.stanford.edu/people/karpathy/">Andrej</a>; <a href="http://homepage.tudelft.nl/19j49/tsnejs/">online demonstration</a>)</small></td>
+      <td><a href="http://cs.stanford.edu/people/karpathy/tsnejs/">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>Parametric t-SNE</strong> <small>(Matlab; <a href="../publications/papers/AISTATS_2009.pdf">see here</a>)</small></td>
+      <td><a href="code/ptsne.tar.gz">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>Barnes-Hut t-SNE</strong> <small>(C++, Matlab, Python, <a href="https://github.com/clementfarabet/manifold">Torch</a>, and <a href="https://github.com/jkrijthe/Rtsne">R</a> wrappers; see <a href="../publications/papers/JMLR_2014.pdf">here</a>)</small></td>
+      <td><a href="code/bh_tsne.tar.gz">All platforms</a></td>
+    </tr>
+    <tr>
+      <td><strong>MNIST Dataset</strong></td>
+      <td><a href="code/mnist.zip">Matlab file</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="examples">Examples</h2>
+
+<p>Some results of our experiments with t-SNE are available for download below. In the plots of the Netflix dataset and the words dataset, the third dimension is encoded by means of a color encoding (similar words/movies are close together and have the same color). Most of the ‘errors’ in the embeddings (such as in the 20 newsgroups) are actually due to ‘errors’ in the features t-SNE was applied on. In many of these examples, the embeddings have a 1-NN error that is comparable to that of the original high-dimensional features.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><strong>MNIST dataset</strong> (in 2D)</td>
+      <td><a href="examples/mnist_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>MNIST dataset</strong> (in 3D)</td>
+      <td><a href="examples/mnist_tsne.mov">MOV</a></td>
+    </tr>
+    <tr>
+      <td><strong>Olivetti faces dataset</strong> (in 2D)</td>
+      <td><a href="examples/olivetti_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>COIL-20 dataset</strong> (in 2D)</td>
+      <td><a href="examples/coil_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>Netflix dataset</strong> (in 3D) <small>on <a href="http://www.cs.toronto.edu/~rsalakhu/">Russ</a>’s <a href="http://www.cs.toronto.edu/~rsalakhu/papers/rbmcf.pdf">RBM features</a></small></td>
+      <td><a href="examples/netflix_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>Words dataset</strong> (in 3D) <small>on <a href="http://www.cs.toronto.edu/~amnih/">Andriy</a>’s <a href="http://www.cs.toronto.edu/~hinton/absps/threenew.pdf">semantic features</a></small></td>
+      <td><a href="examples/semantic_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>20 Newsgroups dataset</strong> (in 2D) <small>on <a href="http://www.di.ens.fr/~slacoste/">Simon</a>’s <a href="http://snowbird.djvuzone.org/2008/abstracts/191.pdf">discLDA features</a></small></td>
+      <td><a href="examples/20news_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>Reuters dataset</strong> (in 2D) <small>landmark t-SNE using <a href="http://www.cs.utoronto.ca/~rsalakhu/papers/semantic_final.pdf">semantic hashing</a></small></td>
+      <td><a href="examples/reuters_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>NIPS dataset</strong> (in 2D) <small>on <a href="http://robotics.stanford.edu/~gal/data.html">co-authorship data (1988-2003)</a></small></td>
+      <td><a href="examples/nips_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>NORB dataset</strong> (in 2D) <small>by <a href="http://www.cs.toronto.edu/~vnair/">Vinod</a></small></td>
+      <td><a href="examples/norb_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>Words</strong> (in 2D) <small>by <a href="http://joseph.turian.com">Joseph</a> on <a href="http://ronan.collobert.com/pub/matos/2008_nlp_icml.pdf">features</a> learned by <a href="http://ronan.collobert.com">Ronan</a> and <a href="http://www.thespermwhale.com/jaseweston/">Jason</a></small></td>
+      <td><a href="http://www.cs.toronto.edu/~hinton/turian.png">PNG</a></td>
+    </tr>
+    <tr>
+      <td><strong>CalTech-101</strong> <small>on SIFT bag-of-words features</small></td>
+      <td><a href="examples/caltech101_tsne.jpg">JPG</a></td>
+    </tr>
+    <tr>
+      <td><strong>S&amp;P 500</strong> <small>by <a href="https://www.linkedin.com/in/stevewickert">Steve</a> on information about daily returns on company stock</small></td>
+      <td><a href="examples/SP500_tsne.png">PNG</a></td>
+    </tr>
+    <tr>
+      <td><strong>Interactive map of scientific journals</strong> <small>on data by <a href="http://www.neesjanvaneck.nl">Nees-Jan</a> and <a href="http://www.ludowaltman.nl">Ludo</a>, using <a href="http://www.vosviewer.com">VOSviewer</a></small></td>
+      <td><a href="http://www.vosviewer.com/vosviewer.php?title=Journals%20t-SNE%20map&amp;map=http://homepage.tudelft.nl/19j49/journal_tsne_map.txt&amp;label_size_effect=0.33">Java 1.6</a></td>
+    </tr>
+    <tr>
+      <td><strong>Relation between World Economic Forum councils</strong></td>
+      <td><a href="http://files.visualizing.org.s3.amazonaws.com/challeneges/wef/visualization/index.html">Link</a></td>
+    </tr>
+    <tr>
+      <td><strong>ImageNet</strong> <small>by <a href="http://cs.stanford.edu/people/karpathy/">Andrej</a> on <a href="http://caffe.berkeleyvision.org">Caffe</a> convolutional net features</small></td>
+      <td><a href="http://cs.stanford.edu/people/karpathy/cnnembed/">Link</a></td>
+    </tr>
+    <tr>
+      <td><strong>Multiple maps visualizations</strong></td>
+      <td><a href="http://homepage.tudelft.nl/19j49/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html">Link</a></td>
+    </tr>
+    <tr>
+      <td><strong>Allen Brain data</strong></td>
+      <td><a href="http://www.sciencedirect.com/science/article/pii/S1046202314003211">Link</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>You may right-click on the images and select “Show image in new tab” to see a larger version of each of the images.</p>
+
+<p>You may also be interested in these blog posts describing applications of t-SNE by <a href="http://karpathy.ca/myblog/?p=707">Andrej Karpathy</a>, <a href="http://www.machinedlearnings.com/2011/06/even-better-hashtag-similarity.html">Paul Mineiro</a>, <a href="http://nbviewer.ipython.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0c648de22eff4a2a3e/raw/59d5bc5ed8f8bfd9ff1f7faa749d1b095aa97d5a/t-SNE.ipynb">Alexander Fabisch</a>, <a href="http://scwn.net">Justin Donaldson</a>, and <a href="http://www.codeproject.com/Tips/788739/Visualization-of-High-Dimensional-Data-using-t-SNE">Henry Tan</a>.</p>
+
+<hr />
+
+<h2 id="faq">FAQ</h2>
+
+<p><strong>The binary implementation of t-SNE seems to have messed up the ordering of my data?</strong></p>
+
+<p>It sure did! The fast implementation of t-SNE is a landmark version that randomly picks it landmarks, even if you set the ratio of landmarks to 1.0. You can get the indices of the selected landmarks from the result-file (or from the Matlab script that runs it, for that matter). The format of the result file is described in the User’s guide.</p>
+
+<p><br />
+<strong>I can’t figure out the file format for the binary versions of t-SNE?</strong></p>
+
+<p>The format is described in the User’s guide. You also might want to have a look at the Matlab or Python wrapper code: it has code that writes the data-file and reads the results-file that can be ported fairly easily to other languages. Please note that the file format is binary (so don’t try to write or read text!), and that it does not contain any spaces, separators, newlines or whatsoever.</p>
+
+<p><br />
+<strong>How should I specify the landmarks to the binary version of t-SNE?</strong></p>
+
+<p>You can either specify a ratio of points to use as landmark points (between 0 and 1), or you can specify a vector with the indices of the points to use as landmark points. In both cases, the fast version of t-SNE will return a vector with the indices of the used landmark points, so you can check what happened.</p>
+
+<p><br />
+<strong>How can I asses the quality of the visualizations that t-SNE constructed?</strong></p>
+
+<p>Preferably, just look at them! Notice that t-SNE does not retain distances but probabilities, so measuring some error between the Euclidean distances in high-D and low-D is useless. However, if you use the same data and perplexity, you can compare the Kullback-Leibler divergences that t-SNE reports. It is perfectly fine to run t-SNE ten times, and select the solution with the lowest KL divergence.</p>
+
+<p><br />
+<strong>How should I set the perplexity in t-SNE?</strong></p>
+
+<p>The performance of t-SNE is fairly robust under different settings of the perplexity. The most appropriate value depends on the density of your data. Loosely speaking, one could say that a larger / denser dataset requires a larger perplexity. Typical values for the perplexity range between 5 and 50. </p>
+
+<p><br />
+<strong>What is perplexity anyway?</strong></p>
+
+<p>Perplexity is a measure for information that is defined as 2 to the power of the Shannon entropy. The perplexity of a fair die with k sides is equal to k. In t-SNE, the perplexity may be viewed as a knob that sets the number of effective nearest neighbors. It is comparable with the number of nearest neighbors k that is employed in many manifold learners.</p>
+
+<p><br />
+<strong>Every time I run t-SNE, I get a (slightly) different result?</strong></p>
+
+<p>In contrast to, e.g., PCA, t-SNE has a non-convex objective function. The objective function is minimized using a gradient descent optimization that is initiated randomly. As a result, it is possible that different runs give you different solutions. Notice that it is perfectly fine to run t-SNE a number of times (with the same data and parameters), and to select the visualization with the lowest value of the objective function as your final visualization.</p>
+
+<p><br />
+<strong>When I run t-SNE, I get a strange ‘ball’ with uniformly distributed points?</strong></p>
+
+<p>This usually indicates you set your perplexity way too high. All points now want to be equidistant. The result you got is the closest you can get to equidistant points as is possible in two dimensions. If lowering the perplexity doesn’t help, you might have run into the problem described in the next question. Similar effects may also occur when you use highly non-metric similarities as input.</p>
+
+<p><br />
+<strong>When I run t-SNE, it reports a very low error but the results look crappy?</strong></p>
+
+<p>Presumably, your data contains some very large numbers, causing the binary search for the correct perplexity to fail. In the beginning of the optimization, t-SNE then reports a minimum, mean, and maximum value for sigma of 1. This is a sign that something went wrong! Just divide your data or distances by a big number, and try again.</p>
+
+<p><br />
+<strong>I tried everything you said, but t-SNE still doesn’t seem to work very well?</strong></p>
+
+<p>Maybe there is something weird in your data. As a sanity check, try running PCA on your data to reduce it to two dimensions. If this also gives bad results, then maybe there is not very much nice structure in your data in the first place. If PCA works well but t-SNE doesn’t, I am fairly sure you did something wrong. Just check your code again until you found the bug! If nothing works, feel free to drop me a line.</p>
+
+<p><br />
+<strong>Can I use a pairwise Euclidean distance matrix as input into t-SNE?</strong></p>
+
+<p>Yes you can! Download the Matlab implementation, and use your pairwise Euclidean distance matrix as input into the <code>tsne_d.m</code> function.</p>
+
+<p><br />
+<strong>Can I use a pairwise similarity matrix as input into t-SNE?</strong></p>
+
+<p>Yes you can! For instance, we successfully applied t-SNE on a dataset of word association data. Download the Matlab implementation, make sure the diagonal of the pairwise similarity matrix contains only zeros, symmetrize the pairwise similarity matrix, and normalize it to sum up to one. You can now use the result as input into the <code>tsne_p.m</code> function.</p>
+
+<p><br />
+<strong>Can I use t-SNE to embed data in more than two dimensions?</strong></p>
+
+<p>Well, yes you can, but there is a catch. The key characteristic of t-SNE is that it solves a problem known as the crowding problem. The extent to which this problem occurs depends on the ratio between the intrinsic data dimensionality and the embedding dimensionality. So, if you embed in, say, thirty dimensions, the crowding problem is less severe than when you embed in two dimensions. As a result, it often works better if you increase the degrees of freedom of the t-distribution when embedding into thirty dimensions (or if you try to embed intrinsically very low-dimensional data such as the Swiss roll). More details about this are described in the AI-STATS paper.</p>
+
+<p><br />
+<strong>Why doesn’t t-SNE work as well as LLE or Isomap on the Swiss roll data?</strong></p>
+
+<p>When embedding the Swiss roll data, the crowding problem does not apply. So you may have to use a lighter-tailed t-distribution to embed the Swiss toll successfully (see above). But frankly… who cares about Swiss rolls when you can embed complex real-world data nicely?</p>
+
+    </div><!-- /.article-wrap -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    
+
+<span>&copy; 2014 Laurens van der Maaten.
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://lvdmaaten.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://lvdmaaten.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55688460-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+          
+
+</body>
+</html>

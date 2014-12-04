@@ -1,0 +1,57 @@
+# Site wide configuration
+
+title:            Laurens van der Maaten
+locale:           en_US
+url:              http://lvdmaaten.github.io
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Laurens van der Maaten
+  avatar: laurens.png
+  bio: "Assistant Professor in machine learning and computer vision."
+  email: lvdmaaten@gmail.com
+  disqus-shortname: 
+  twitter: #
+  facebook: lvdmaaten
+  google:
+    plus: LaurensvanderMaaten
+    analytics: UA-55688460-3
+    verify: 
+    ad-client: 
+    ad-slot: 
+  bing-verify: 
+  github: lvdmaaten
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #lvdmaaten@gmail.com
+  instagram: #
+  lastfm: #
+  tumblr: #
+  pinterest: #
+  foursquare: #
+  steam: #
+  dribbble: #
+  youtube: #
+  soundcloud: #
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]

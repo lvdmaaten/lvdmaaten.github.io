@@ -1,0 +1,305 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Matlab Toolbox for Dimensionality Reduction &#8211; Laurens van der Maaten</title>
+<meta name="description" content="Matlab Toolbox for Dimensionality Reduction">
+<meta name="keywords" content="">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Matlab Toolbox for Dimensionality Reduction">
+<meta name="twitter:description" content="Matlab Toolbox for Dimensionality Reduction">
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://lvdmaaten.github.io/images/sample-image-7.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Matlab Toolbox for Dimensionality Reduction">
+<meta property="og:description" content="Matlab Toolbox for Dimensionality Reduction">
+<meta property="og:url" content="http://lvdmaaten.github.io/drtoolbox/">
+<meta property="og:site_name" content="Laurens van der Maaten">
+
+
+
+
+
+<link rel="canonical" href="http://lvdmaaten.github.io/drtoolbox/">
+<link href="http://lvdmaaten.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Laurens van der Maaten Feed">
+<link rel="author" href="http://plus.google.com/+LaurensvanderMaaten?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://lvdmaaten.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://lvdmaaten.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://lvdmaaten.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://lvdmaaten.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://lvdmaaten.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://lvdmaaten.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://lvdmaaten.github.io">Laurens van der Maaten</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/cv/" >Curriculum Vitae</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/publications/" >Publications</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/software/" >Software</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/contact/" >Contact</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+  <div class="image-wrap">
+  <img src=
+    
+      "http://lvdmaaten.github.io/images/sample-image-7.jpg"
+    
+  alt="Matlab Toolbox for Dimensionality Reduction feature image">
+  
+  </div><!-- /.image-wrap -->
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://lvdmaaten.github.io/images/laurens.png" class="bio-photo" alt="Laurens van der Maaten bio photo">
+
+<h3>Laurens van der Maaten</h3>
+<p>Assistant Professor in machine learning and computer vision.</p>
+<a href="mailto:lvdmaaten@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+LaurensvanderMaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+
+
+
+<a href="http://github.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+  </div>
+  <article class="page">
+    <h1>Matlab Toolbox for Dimensionality Reduction</h1>
+    <div class="article-wrap">
+      <section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#usage">Usage</a></li>
+  <li><a href="#download">Download</a></li>
+  <li><a href="#faq">FAQ</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<p>The Matlab Toolbox for Dimensionality Reduction contains Matlab implementations of 34 techniques for dimensionality reduction and metric learning. A large number of implementations was developed from scratch, whereas other implementations are improved versions of software that was already available on the Web. The implementations in the toolbox are conservative in their use of memory. The toolbox is available for download here.</p>
+
+<p><br />
+Currently, the Matlab Toolbox for Dimensionality Reduction contains the following techniques:</p>
+
+<ol>
+  <li>Principal Component Analysis (PCA)</li>
+  <li>Probabilistic PCA</li>
+  <li>Factor Analysis (FA)</li>
+  <li>Classical multidimensional scaling (MDS)</li>
+  <li>Sammon mapping</li>
+  <li>Linear Discriminant Analysis (LDA)</li>
+  <li>Isomap</li>
+  <li>Landmark Isomap</li>
+  <li>Local Linear Embedding (LLE)</li>
+  <li>Laplacian Eigenmaps</li>
+  <li>Hessian LLE</li>
+  <li>Local Tangent Space Alignment (LTSA)</li>
+  <li>Conformal Eigenmaps (extension of LLE)</li>
+  <li>Maximum Variance Unfolding (extension of LLE)</li>
+  <li>Landmark MVU (LandmarkMVU)</li>
+  <li>Fast Maximum Variance Unfolding (FastMVU)</li>
+  <li>Kernel PCA</li>
+  <li>Generalized Discriminant Analysis (GDA)</li>
+  <li>Diffusion maps</li>
+  <li>Neighborhood Preserving Embedding (NPE)</li>
+  <li>Locality Preserving Projection (LPP)</li>
+  <li>Linear Local Tangent Space Alignment (LLTSA)</li>
+  <li>Stochastic Proximity Embedding (SPE)</li>
+  <li>Deep autoencoders (using denoising autoencoder pretraining)</li>
+  <li>Local Linear Coordination (LLC)</li>
+  <li>Manifold charting</li>
+  <li>Coordinated Factor Analysis (CFA)</li>
+  <li>Gaussian Process Latent Variable Model (GPLVM)</li>
+  <li>Stochastic Neighbor Embedding (SNE)</li>
+  <li>Symmetric SNE</li>
+  <li>t-Distributed Stochastic Neighbor Embedding (t-SNE)</li>
+  <li>Neighborhood Components Analysis (NCA)</li>
+  <li>Maximally Collapsing Metric Learning (MCML)</li>
+  <li>Large-Margin Nearest Neighbor (LMNN)</li>
+</ol>
+
+<p>In addition to the techniques for dimensionality reduction, the toolbox contains implementations of 6 techniques for intrinsic dimensionality estimation, as well as functions for out-of-sample extension, prewhitening of data, and the generation of toy datasets.</p>
+
+<hr />
+
+<h2 id="usage">Usage</h2>
+
+<p>The toolbox provides easy access to all these implementations. Basically, the only command you need to execute is:<br /><br /></p>
+
+<p><code>[mapped_data, mapping] = compute_mapping(data, method, # of dimensions, parameters)</code></p>
+
+<p><br />
+The function assumes the dimensions are the columns in the data, and the instances are the rows. The function also accepts PRTools datasets. Information on how parameters for certain techniques should be specified can be obtained by typing <code>help compute_mapping</code> in the Matlab prompt. For more instructions on how to install and use the toolbox, please read the <code>Readme.txt</code> file.</p>
+
+<p>You are free to use, modify, or redistribute this software in any way you want, but only for non-commercial purposes. The use of the toolbox is at your own risk; the author is not responsible for any damage as a result from errors in the software. I would appreciate it if you refer to the toolbox or its author in your papers.</p>
+
+<p><br />
+For more information on the techniques implemented in the toolbox, we refer to the following publications:</p>
+
+<ul>
+  <li>L.J.P. van der Maaten, E.O. Postma, and H.J. van den Herik. <strong>Dimensionality Reduction: A Comparative Review</strong>. Tilburg University Technical Report, TiCC-TR 2009-005, 2009. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf">PDF</a></li>
+  <li>L.J.P. van der Maaten and G.E. Hinton. <strong>Visualizing High-Dimensional Data Using t-SNE</strong>. <em>Journal of Machine Learning Research</em> 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> <a href="../publications/papers/JMLR_2008.pdf">PDF</a> <small>[<a href="../publications/misc/Supplement_JMLR_2008.pdf">Supplemental material</a>] [<a href="https://www.youtube.com/watch?v=RJVL80Gg3lA&amp;list=UUtXKDgv1AVoG88PLl8nGXmw">Talk</a>]</small></li>
+</ul>
+
+<hr />
+
+<h2 id="download">Download</h2>
+
+<p>Please <a href="code/drtoolbox.tar.gz">click here</a> to <a href="code/drtoolbox.tar.gz">download the toolbox</a>.</p>
+
+<hr />
+
+<h2 id="faq">FAQ</h2>
+
+<p><strong>When using the toolbox, the code quits saying that some function could not be found?</strong></p>
+
+<p>Nine out of ten times, such errors is the result of you forgetting to add the the toolbox to the Matlab path. You can add the toolbox to the Matlab path by typing <code>addpath(genpath(‘installation_folder/drtoolbox’))</code>. Another probable cause is a naming conflict with another toolbox (e.g., another toolbox with a PCA function). You can investigate such errors using Matlab’s which function. If Matlab complains it cannot find the <code>bsxfun</code> function, your Matlab is likely to be very outdated. You may try using this code as a surrogate. </p>
+
+<p><br />
+<strong>Next to reducing the dimensionality of my data, Isomap/LLE/Laplacian Eigenmaps/LTSA also reduced the number of data points? Where did these points go?</strong>
+You may observe this behavior in most techniques that are based on neighborhood graphs. Isomap/LLE/Laplacian Eigenmaps/LTSA can only embed data that gives rise to a connected neighborhood graph. If the neighborhood graph is not connected, the implementations only embed the largest connected component of the neighborhood graph. You can obtain the indices of the embedded data points from mapping.conn_comp (which you can get from the compute_mapping function). If you really need to have al your data points embedded, don’t use a manifold learner.</p>
+
+<p><br />
+<strong>How do I provide label information to the supervised techniques/metric learners?</strong>
+You should specify label information to supervised techniques (LDA, NCA, MCML, and LMNN) by setting the elements of the first column of the data matrix to the label of the corresponding data point. To this end, the labels should be numeric. For embedding test data, use the <code>out_of_sample.m</code> function without specifying the test labels.</p>
+
+<p><br />
+<strong>How do I project low-dimensional data back into the data space?</strong>
+Back-projection can only be implemented for linear techniques, for autoencoders, and for the GPLVM. For some of these models, the toolbox implements back-projection via the <code>reconstruct_data.m</code> function.</p>
+
+<p><br />
+<strong>Which techniques support an exact out-of-sample extension?</strong>
+Only parametric dimensionality reduction techniques, i.e., techniques that learn an explicit function between the data space and the low-dimensional latent space, support exact out-of-sample extension. All linear techniques (PCA, LDA, NCA, MCML, LPP, and NPE) support exact out-of-sample extension, and autoencoders do too. Spectral techniques such as Isomap, LLE, and Laplacian Eigenmaps support out-of-sample extensions via the Nyström approximation. The out-of-sample extensions can be used via the <code>out_of_sample.m</code> function.</p>
+
+<p><br />
+<strong>Which technique should I use to visualize high-dimensional data in a scatter plot?</strong>
+t-SNE typically is very good at visualizing data. Manifold learners often perform disappointingly for data visualization due to a problem in their covariance constraint. Parametric techniques are typically not well suited for visualization, because they constrain the mapping between the data and the visualization.</p>
+
+    </div><!-- /.article-wrap -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    
+
+<span>&copy; 2014 Laurens van der Maaten.
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://lvdmaaten.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://lvdmaaten.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55688460-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+          
+
+</body>
+</html>

@@ -1,0 +1,336 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Syntax Highlighting Post &#8211; Laurens van der Maaten</title>
+<meta name="description" content="Demo post displaying the various ways of highlighting code in Markdown.">
+<meta name="keywords" content="sample post, code, highlighting">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Syntax Highlighting Post">
+<meta name="twitter:description" content="Demo post displaying the various ways of highlighting code in Markdown.">
+
+
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://lvdmaaten.github.io/images/default-thumb.png">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Syntax Highlighting Post">
+<meta property="og:description" content="Demo post displaying the various ways of highlighting code in Markdown.">
+<meta property="og:url" content="http://lvdmaaten.github.io/code-highlighting-post/">
+<meta property="og:site_name" content="Laurens van der Maaten">
+
+
+
+
+
+<link rel="canonical" href="http://lvdmaaten.github.io/code-highlighting-post/">
+<link href="http://lvdmaaten.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Laurens van der Maaten Feed">
+<link rel="author" href="http://plus.google.com/+LaurensvanderMaaten?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://lvdmaaten.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://lvdmaaten.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://lvdmaaten.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://lvdmaaten.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://lvdmaaten.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://lvdmaaten.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="post">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://lvdmaaten.github.io">Laurens van der Maaten</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/cv/" >Curriculum Vitae</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/publications/" >Publications</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/software/" >Software</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/contact/" >Contact</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://lvdmaaten.github.io/images/laurens.png" class="bio-photo" alt="Laurens van der Maaten bio photo">
+
+<h3>Laurens van der Maaten</h3>
+<p>Assistant Professor in machine learning and computer vision.</p>
+<a href="mailto:lvdmaaten@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+LaurensvanderMaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+
+
+
+<a href="http://github.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+  </div>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="http://lvdmaaten.github.io/code-highlighting-post/" rel="bookmark" title="Syntax Highlighting Post">Syntax Highlighting Post</a></h1>
+      
+    </div><!--/ .headline-wrap -->
+    <div class="article-wrap">
+      <p>Syntax highlighting is a feature that displays source code, in different colors and fonts according to the category of terms. This feature facilitates writing in a structured language such as a programming language or a markup language as both structures and syntax errors are visually distinct. Highlighting does not affect the meaning of the text itself; it is intended only for human readers.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup></p>
+
+<h3 id="pygments-code-blocks">Pygments Code Blocks</h3>
+
+<p>To modify styling and highlight colors edit <code>/_sass/_pygments.scss</code>.</p>
+
+<div class="highlight"><pre><code class="language-css" data-lang="css"><span class="nf">#container</span> <span class="p">{</span>
+    <span class="k">float</span><span class="o">:</span> <span class="k">left</span><span class="p">;</span>
+    <span class="k">margin</span><span class="o">:</span> <span class="m">0</span> <span class="m">-240px</span> <span class="m">0</span> <span class="m">0</span><span class="p">;</span>
+    <span class="k">width</span><span class="o">:</span> <span class="m">100%</span><span class="p">;</span>
+<span class="p">}</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;nav</span> <span class="na">class=</span><span class="s">&quot;pagination&quot;</span> <span class="na">role=</span><span class="s">&quot;navigation&quot;</span><span class="nt">&gt;</span>
+    {% if page.previous %}
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}{{ page.previous.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span> <span class="na">title=</span><span class="s">&quot;{{ page.previous.title }}&quot;</span><span class="nt">&gt;</span>Previous article<span class="nt">&lt;/a&gt;</span>
+    {% endif %}
+    {% if page.next %}
+        <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;{{ site.url }}{{ page.next.url }}&quot;</span> <span class="na">class=</span><span class="s">&quot;btn&quot;</span> <span class="na">title=</span><span class="s">&quot;{{ page.next.title }}&quot;</span><span class="nt">&gt;</span>Next article<span class="nt">&lt;/a&gt;</span>
+    {% endif %}
+<span class="nt">&lt;/nav&gt;</span><span class="c">&lt;!-- /.pagination --&gt;</span></code></pre></div>
+
+<div class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">module</span> <span class="nn">Jekyll</span>
+  <span class="k">class</span> <span class="nc">TagIndex</span> <span class="o">&lt;</span> <span class="no">Page</span>
+    <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="n">site</span><span class="p">,</span> <span class="n">base</span><span class="p">,</span> <span class="n">dir</span><span class="p">,</span> <span class="n">tag</span><span class="p">)</span>
+      <span class="vi">@site</span> <span class="o">=</span> <span class="n">site</span>
+      <span class="vi">@base</span> <span class="o">=</span> <span class="n">base</span>
+      <span class="vi">@dir</span> <span class="o">=</span> <span class="n">dir</span>
+      <span class="vi">@name</span> <span class="o">=</span> <span class="s1">&#39;index.html&#39;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">process</span><span class="p">(</span><span class="vi">@name</span><span class="p">)</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">read_yaml</span><span class="p">(</span><span class="no">File</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="s1">&#39;_layouts&#39;</span><span class="p">),</span> <span class="s1">&#39;tag_index.html&#39;</span><span class="p">)</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;tag&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="n">tag</span>
+      <span class="n">tag_title_prefix</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;tag_title_prefix&#39;</span><span class="o">]</span> <span class="o">||</span> <span class="s1">&#39;Tagged: &#39;</span>
+      <span class="n">tag_title_suffix</span> <span class="o">=</span> <span class="n">site</span><span class="o">.</span><span class="n">config</span><span class="o">[</span><span class="s1">&#39;tag_title_suffix&#39;</span><span class="o">]</span> <span class="o">||</span> <span class="s1">&#39;&amp;#8211;&#39;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;title&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">#{</span><span class="n">tag_title_prefix</span><span class="si">}#{</span><span class="n">tag</span><span class="si">}</span><span class="s2">&quot;</span>
+      <span class="nb">self</span><span class="o">.</span><span class="n">data</span><span class="o">[</span><span class="s1">&#39;description&#39;</span><span class="o">]</span> <span class="o">=</span> <span class="s2">&quot;An archive of posts tagged </span><span class="si">#{</span><span class="n">tag</span><span class="si">}</span><span class="s2">.&quot;</span>
+    <span class="k">end</span>
+  <span class="k">end</span>
+<span class="k">end</span></code></pre></div>
+
+<h3 id="standard-code-block">Standard Code Block</h3>
+
+<pre><code>&lt;nav class="pagination" role="navigation"&gt;
+    {% if page.previous %}
+        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
+    {% endif %}
+    {% if page.next %}
+        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
+    {% endif %}
+&lt;/nav&gt;&lt;!-- /.pagination --&gt;
+</code></pre>
+
+<h3 id="fenced-code-blocks">Fenced Code Blocks</h3>
+
+<p>To modify styling and highlight colors edit <code>/_sass/_coderay.scss</code>. Line numbers and a few other things can be modified in <code>_config.yml</code>. Consult <a href="http://jekyllrb.com/docs/configuration/">Jekyll’s documentation</a> for more information.</p>
+
+<pre><code class="language-css">#container {
+    float: left;
+    margin: 0 -240px 0 0;
+    width: 100%;
+}
+</code></pre>
+
+<pre><code class="language-html">&lt;nav class="pagination" role="navigation"&gt;
+    {% if page.previous %}
+        &lt;a href="{{ site.url }}{{ page.previous.url }}" class="btn" title="{{ page.previous.title }}"&gt;Previous article&lt;/a&gt;
+    {% endif %}
+    {% if page.next %}
+        &lt;a href="{{ site.url }}{{ page.next.url }}" class="btn" title="{{ page.next.title }}"&gt;Next article&lt;/a&gt;
+    {% endif %}
+&lt;/nav&gt;&lt;!-- /.pagination --&gt;
+</code></pre>
+
+<pre><code class="language-ruby">module Jekyll
+  class TagIndex &lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+</code></pre>
+
+<h3 id="github-gist-embed">GitHub Gist Embed</h3>
+
+<p>An example of a Gist embed below.</p>
+
+<script src="https://gist.github.com/mmistakes/6589546.js"> </script>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p><a href="http://en.wikipedia.org/wiki/Syntax_highlighting">http://en.wikipedia.org/wiki/Syntax_highlighting</a> <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+
+	<img src="http://lvdmaaten.github.io/images/laurens.png" class="bio-photo" alt="Laurens van der Maaten bio photo">
+
+<h3>Laurens van der Maaten</h3>
+<p>Assistant Professor in machine learning and computer vision.</p>
+<a href="mailto:lvdmaaten@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+LaurensvanderMaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+
+
+
+<a href="http://github.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>Syntax Highlighting Post</strong> was published on <time datetime="2013-08-16T00:00:00+02:00">August 16, 2013</time> and last modified on <time datetime="2014-09-14">September 14, 2014</time>.</p>
+      </footer>
+    </div><!-- /.article-wrap -->
+  
+  </article>
+</div><!-- /#main -->
+
+<div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://lvdmaaten.github.io/posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://lvdmaaten.github.io/author-override/" title="Author Override">Author Override</a></li>
+    
+      <li><a href="http://lvdmaaten.github.io/sample-link-post/" title="Sample Link Post">Sample Link Post</a></li>
+    
+      <li><a href="http://lvdmaaten.github.io/readability-feature-post/" title="Post with Large Feature Image and Text">Post with Large Feature Image and Text</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
+  <footer>
+    
+
+<span>&copy; 2014 Laurens van der Maaten.
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://lvdmaaten.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://lvdmaaten.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55688460-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+  
+	        
+
+</body>
+</html>
