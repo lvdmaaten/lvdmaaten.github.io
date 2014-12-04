@@ -22,6 +22,8 @@ t-Distributed Stochastic Neighbor Embedding (t-SNE) is a ([prize-winning](http:/
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing Non-Metric Similarities in Multiple Maps**. _Machine Learning_ 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/MachLearn_2012.pdf)
 * L.J.P. van der Maaten. **Learning a Parametric Embedding by Preserving Local Structure**. In _Proceedings of the Twelfth International Conference on Artificial Intelligence & Statistics (AI-STATS), JMLR W&CP_ 5:384-391, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/AISTATS_2009.pdf)
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/JMLR_2008.pdf) <small>[[Supplemental material](../publications/misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)]</small>
+
+<br />
 An accessible introduction to t-SNE and its variants is given in this [Google Techtalk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw).
 
 ---
