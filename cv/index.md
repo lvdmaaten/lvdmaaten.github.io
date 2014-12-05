@@ -2,7 +2,7 @@
 layout: page
 title: Curriculum Vitae
 image:
-  feature: sample-image-2.jpg
+  feature: sample-image-6.jpg
 ---
 
 I am currently an Assistant Professor at [Delft University of Technology](http://www.tudelft.nl). Before, I worked as a postdoc under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. In February 2015, I will join [Yann LeCun](http://yann.lecun.com)'s team at [Facebook AI Research](https://research.facebook.com/ai) in New York.
