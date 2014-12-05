@@ -1,0 +1,247 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>Canvas Analysis &#8211; Laurens van der Maaten</title>
+
+<meta name="keywords" content="">
+
+
+
+<!-- Twitter Cards -->
+<meta name="twitter:title" content="Canvas Analysis">
+
+
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="http://lvdmaaten.github.io/images/sample-image-2.jpg">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Canvas Analysis">
+
+<meta property="og:url" content="http://lvdmaaten.github.io/canvas/">
+<meta property="og:site_name" content="Laurens van der Maaten">
+
+
+
+
+
+<link rel="canonical" href="http://lvdmaaten.github.io/canvas/">
+<link href="http://lvdmaaten.github.io/feed.xml" type="application/atom+xml" rel="alternate" title="Laurens van der Maaten Feed">
+<link rel="author" href="http://plus.google.com/+LaurensvanderMaaten?rel=author">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://lvdmaaten.github.io/assets/css/main.css">
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- HTML5 Shiv and Media Query Support -->
+<!--[if lt IE 9]>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/html5shiv.min.js"></script>
+	<script src="http://lvdmaaten.github.io/assets/js/vendor/respond.min.js"></script>
+<![endif]-->
+
+<!-- Modernizr -->
+<script src="http://lvdmaaten.github.io/assets/js/vendor/modernizr-2.7.1.custom.min.js"></script>
+
+<link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700%7CPT+Serif:400,700,400italic' rel='stylesheet' type='text/css'>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="http://lvdmaaten.github.io/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="http://lvdmaaten.github.io/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://lvdmaaten.github.io/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://lvdmaaten.github.io/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://lvdmaaten.github.io/images/apple-touch-icon-144x144-precomposed.png">
+
+</head>
+
+<body class="page">
+
+<!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
+
+<div class="navigation-wrapper">
+	<div class="site-name">
+		<a href="http://lvdmaaten.github.io">Laurens van der Maaten</a>
+	</div><!-- /.site-name -->
+	<div class="top-navigation">
+		<nav role="navigation" id="site-nav" class="nav">
+		    <ul>
+		        
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/cv/" >Curriculum Vitae</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/publications/" >Publications</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/software/" >Software</a></li>
+					  
+					    
+					        
+					    
+					    <li><a href="http://lvdmaaten.github.io/contact/" >Contact</a></li>
+					  
+		    </ul>
+		</nav>
+	</div><!-- /.top-navigation -->
+</div><!-- /.navigation-wrapper -->
+
+
+  <div class="image-wrap">
+  <img src=
+    
+      "http://lvdmaaten.github.io/images/sample-image-2.jpg"
+    
+  alt="Canvas Analysis feature image">
+  
+  </div><!-- /.image-wrap -->
+
+
+<div id="main" role="main">
+  <div class="article-author-side">
+    
+
+
+
+	<img src="http://lvdmaaten.github.io/images/laurens.png" class="bio-photo" alt="Laurens van der Maaten bio photo">
+
+<h3>Laurens van der Maaten</h3>
+<p>Assistant Professor in machine learning and computer vision.</p>
+<a href="mailto:lvdmaaten@gmail.com" class="author-social" target="_blank"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+<a href="http://plus.google.com/+LaurensvanderMaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-google-plus-square"></i> Google+</a>
+
+
+
+<a href="http://github.com/lvdmaaten" class="author-social" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+
+
+
+
+
+
+
+
+  </div>
+  <article class="page">
+    <h1>Canvas Analysis</h1>
+    <div class="article-wrap">
+      <section id="table-of-contents" class="toc">
+  <header>
+    <h3>Overview</h3>
+  </header>
+<div id="drawer">
+<ul id="markdown-toc">
+  <li><a href="#results">Results</a></li>
+  <li><a href="#download">Download</a></li>
+</ul>
+
+  </div>
+</section>
+<!-- /#table-of-contents -->
+
+<p>Canvas analysis is an important tool in art-historical studies, as it can provide information on whether two paintings were made on canvas that originated from the same roll. Canvas analysis algorithms analyze radiographs of paintings to identify (ir)regularities in the spacings between the canvas threads. To reduce noise, current state-of-the-art algorithms do this by averaging the signal over a number of threads, which leads to information loss in the final measurements. </p>
+
+<p>This webpage presents the first  algorithm that is capable of performing <em>thread-level</em> canvas analysis: the algorithm identifies each of the individual threads in the canvas radiograph, and directly measures between-distances and angles of the identified threads. We have performed two case studies to illustrate the potential merits of our thread-level canvas analysis algorithm, viz. on a small collection of paintings by Nicholas Poussin and on a small collection of paintings by Vincent Van Gogh.</p>
+
+<p><br />
+The paper describing our thread-level canvas analysis algorithm will (hopefully) be available here soon:</p>
+
+<ul>
+  <li>L.J.P. van der Maaten and R.G. Erdmann. <strong>Automatic Thread-Level Canvas Analysis</strong>. Under review at <em>IEEE Signal Processing Magazine</em>, 2015.</li>
+</ul>
+
+<hr />
+
+<h2 id="results">Results</h2>
+
+<p>The images below provide an illustration of the results obtained using our thread-level canvas analysis algorithm. Right-click and click on <em>Open Image in New Tab</em> to see a larger version of the images.</p>
+
+<p><br />
+The image below shows: (a) a small patch of canvas taken from Poussin’s <a href="https://www.google.com/culturalinstitute/asset-viewer/the-triumph-of-bacchus/AwHv86aFzSZnJA?hl=en">Triumph of Bacchus</a>; (b) the response of our thread crossing classifier on the patch of canvas; (c) the response of our model after incorporating the pictorial-structures model that exploit canvas regularity; and (d) the final thread-crossing detections and the identified neighbor relations between these detections. In the response images, a brighter color corresponds to a higher likelihood of a thread crossing being present in the canvas (according to our model). In the bottom-right figure, detected thread crossings are indicated by red crossings, whereas the blue lines indicate the detected neighbor relations.</p>
+
+<p><br />
+<a href="images/crossing_detection.png"><img src="images/crossing_detection.png" alt="Illustration of thread-level canvas analysis" /></a>
+<br /></p>
+
+<p>To construct thread distance maps, distances that were measured between all neighboring thread crossings (that is, over all blue lines). At locations where blue lines are absent, the distances are interpolated from neighboring thread crossings. A similar approach was used to construct thread orientation maps.</p>
+
+<p><br />
+The image below shows the results of thread-level canvas analysis on Poussin’s <a href="https://www.google.com/culturalinstitute/asset-viewer/the-triumph-of-bacchus/AwHv86aFzSZnJA?hl=en">Triumph of Bacchus</a>. Specifically, the image shows: (a) spacing between warp threads, (b) spacing between the weft threads, and (c) orientation of the warp threads. In the spacing maps, a blue color corresponds to a small distance between threads, whilst a red color corresponds to a large distance between threads.</p>
+
+<p><br />
+<a href="images/example_result.png"><img src="images/example_result.png" alt="Results of thread-level canvas analysis on Poussin's Triumph of Bacchus" /></a>
+<br /><br /></p>
+
+<p>For the warp threads, thread spacings range between 1.2 and 1.9mm, whilst for weft threads, thread spacings range between 0.8 and 1.45mm. The warp orientation map shows strong cusping on the top and bottom, caused by the forces exerted on the canvas when it was attached to the wall and the ground layer was applied.</p>
+
+<hr />
+
+<h2 id="download">Download</h2>
+
+<p>Matlab code implementing our thread-level canvas analysis algorithm will be made available here soon.</p>
+
+
+    </div><!-- /.article-wrap -->
+    
+  </article>
+</div><!-- /#index -->
+
+<div class="footer-wrap">
+  <footer>
+    
+
+<span>&copy; 2014 Laurens van der Maaten.
+
+  </footer>
+</div><!-- /.footer-wrap -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="http://lvdmaaten.github.io/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+<script src="http://lvdmaaten.github.io/assets/js/scripts.min.js"></script>
+
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  var _gaq = _gaq || [];
+  var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+  _gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+  _gaq.push(['_setAccount', 'UA-55688460-3']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+          
+
+</body>
+</html>
