@@ -33,7 +33,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
-* C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. To appear in _Microbiome_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
+* C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. To appear in _Microbiome_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
 
 ---
 
