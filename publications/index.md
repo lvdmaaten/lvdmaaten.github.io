@@ -31,6 +31,12 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ---
 
+## 2015
+
+* C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L. van der Maaten, N. Vlassis, and P. Wilmes. VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data. To appear in _Microbiome_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
+
+---
+
 ## 2014
 
 1. L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2014.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2014.pdf)] [[Code](../tsne/)]</small>
