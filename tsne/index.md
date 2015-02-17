@@ -79,19 +79,9 @@ You may also be interested in these blog posts describing applications of t-SNE 
 
 ## FAQ
 
-**The binary implementation of t-SNE seems to have messed up the ordering of my data?**
-
-It sure did! The fast implementation of t-SNE is a landmark version that randomly picks it landmarks, even if you set the ratio of landmarks to 1.0. You can get the indices of the selected landmarks from the result-file (or from the Matlab script that runs it, for that matter). The format of the result file is described in the User’s guide.
-
-<br />
-**I can’t figure out the file format for the binary versions of t-SNE?**
+**I can’t figure out the file format for the binary implementations of t-SNE?**
 
 The format is described in the User’s guide. You also might want to have a look at the Matlab or Python wrapper code: it has code that writes the data-file and reads the results-file that can be ported fairly easily to other languages. Please note that the file format is binary (so don’t try to write or read text!), and that it does not contain any spaces, separators, newlines or whatsoever.
-
-<br />
-**How should I specify the landmarks to the binary version of t-SNE?**
-
-You can either specify a ratio of points to use as landmark points (between 0 and 1), or you can specify a vector with the indices of the points to use as landmark points. In both cases, the fast version of t-SNE will return a vector with the indices of the used landmark points, so you can check what happened.
 
 <br />
 **How can I asses the quality of the visualizations that t-SNE constructed?**
