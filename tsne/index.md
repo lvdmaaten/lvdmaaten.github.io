@@ -39,6 +39,7 @@ You are free to use, modify, or redistribute this software in any way you want, 
 **Python implementation** | [All platforms](code/tsne_python.zip)
 **Torch implementation** | [All platforms](https://github.com/clementfarabet/manifold)
 **Julia implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/TSne.jl)
+**Java implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/T-SNE-Java)
 **R implementation** <small>(by [Justin](http://scwn.net))</small> | [All platforms](http://cran.r-project.org/web/packages/tsne/)
 **JavaScript implementation** <small>(by [Andrej](http://cs.stanford.edu/people/karpathy/); [online demonstration](http://homepage.tudelft.nl/19j49/tsnejs/))</small> | [All platforms](http://cs.stanford.edu/people/karpathy/tsnejs/)
 **Parametric t-SNE** <small>(Matlab; [see here](../publications/papers/AISTATS_2009.pdf))</small> | [All platforms](code/ptsne.tar.gz)
