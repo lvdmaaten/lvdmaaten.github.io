@@ -5,19 +5,20 @@ image:
   feature: sample-image-6.jpg
 ---
 
-I am currently an Assistant Professor at [Delft University of Technology](http://www.tudelft.nl). Before, I worked as a postdoc under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. In February 2015, I will join [Yann LeCun](http://yann.lecun.com)'s team at [Facebook AI Research](https://research.facebook.com/ai) in New York.
+
+I am currently a Research Scientist in [Yann LeCun](http://yann.lecun.com)'s team at [Facebook AI Research](https://research.facebook.com/ai) in New York. Before, I worked as an Assistant Professor at [Delft University of Technology](http://www.tudelft.nl) (to which I am still affiliated), and as a post-doctoral researcger under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. 
 
 ---
 
 ## Full Resume
 
-<i class="fa fa-file-pdf-o"></i> [Download my full resume](resume.pdf).
+<i class="fa fa-file-pdf-o"></i> [Download my full resume](resume.pdf) (may be slightly outdated).
 
 ---
 
 ## Research
 
-My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, dimensionality reduction, generative models, deep learning, time series classification, and object tracking.
+My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, dimensionality reduction, generative models, deep learning, time series classification, regularization, and object tracking.
 
 ---
 
