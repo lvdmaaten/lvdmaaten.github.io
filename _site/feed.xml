@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lvdmaaten.github.io/feed.xml" />
 <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io" />
-<updated>2015-03-11T08:28:07-07:00</updated>
+<updated>2015-04-12T20:12:45-04:00</updated>
 <id>http://lvdmaaten.github.io/</id>
 <author>
   <name>Laurens van der Maaten</name>
@@ -19,8 +19,8 @@
   <title type="html"><![CDATA[Author Override]]></title>
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/author-override/" />
   <id>http://lvdmaaten.github.io/author-override</id>
-  <published>2014-07-31T00:00:00-07:00</published>
-  <updated>2014-07-31T00:00:00-07:00</updated>
+  <published>2014-07-31T00:00:00-04:00</published>
+  <updated>2014-07-31T00:00:00-04:00</updated>
   <author>
     <name>Billy Rick</name>
     <uri>http://lvdmaaten.github.io</uri>
@@ -68,7 +68,7 @@
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/code-highlighting-post/" />
   <id>http://lvdmaaten.github.io/code-highlighting-post</id>
   <updated>2014-09-14T00:00:00-00:00</updated>
-  <published>2013-08-16T00:00:00-07:00</published>
+  <published>2013-08-16T00:00:00-04:00</published>
   
   <author>
     <name>Laurens van der Maaten</name>
@@ -190,8 +190,8 @@ end
   <title type="html"><![CDATA[Sample Link Post]]></title>
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/sample-link-post/" />
   <id>http://lvdmaaten.github.io/sample-link-post</id>
-  <published>2013-08-12T00:00:00-07:00</published>
-  <updated>2013-08-12T00:00:00-07:00</updated>
+  <published>2013-08-12T00:00:00-04:00</published>
+  <updated>2013-08-12T00:00:00-04:00</updated>
   <author>
     <name>Laurens van der Maaten</name>
     <uri>http://lvdmaaten.github.io</uri>
@@ -215,8 +215,8 @@ end
   <title type="html"><![CDATA[Post with Large Feature Image and Text]]></title>
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/readability-feature-post/" />
   <id>http://lvdmaaten.github.io/readability-feature-post</id>
-  <published>2013-05-23T00:00:00-07:00</published>
-  <updated>2013-05-23T00:00:00-07:00</updated>
+  <published>2013-05-23T00:00:00-04:00</published>
+  <updated>2013-05-23T00:00:00-04:00</updated>
   <author>
     <name>Laurens van der Maaten</name>
     <uri>http://lvdmaaten.github.io</uri>
@@ -281,8 +281,8 @@ end
   <title type="html"><![CDATA[A Post with Images]]></title>
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/sample-post-images/" />
   <id>http://lvdmaaten.github.io/sample-post-images</id>
-  <published>2013-05-22T00:00:00-07:00</published>
-  <updated>2013-05-22T00:00:00-07:00</updated>
+  <published>2013-05-22T00:00:00-04:00</published>
+  <updated>2013-05-22T00:00:00-04:00</updated>
   <author>
     <name>Laurens van der Maaten</name>
     <uri>http://lvdmaaten.github.io</uri>
@@ -349,8 +349,8 @@ end
   <title type="html"><![CDATA[Testing Readability with a Bunch of Text]]></title>
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/readability-post/" />
   <id>http://lvdmaaten.github.io/readability-post</id>
-  <published>2012-05-22T00:00:00-07:00</published>
-  <updated>2012-05-22T00:00:00-07:00</updated>
+  <published>2012-05-22T00:00:00-04:00</published>
+  <updated>2012-05-22T00:00:00-04:00</updated>
   <author>
     <name>Laurens van der Maaten</name>
     <uri>http://lvdmaaten.github.io</uri>
@@ -408,7 +408,7 @@ end
   <link rel="alternate" type="text/html" href="http://lvdmaaten.github.io/sample-post/" />
   <id>http://lvdmaaten.github.io/sample-post</id>
   <updated>2013-05-31T00:00:00-00:00</updated>
-  <published>2011-03-10T00:00:00-08:00</published>
+  <published>2011-03-10T00:00:00-05:00</published>
   
   <author>
     <name>Laurens van der Maaten</name>
