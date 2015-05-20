@@ -8,16 +8,11 @@ image:
 
 **Dr. Laurens van der Maaten**
 
-Faculty of Electrical Engineering, Mathematics, and Computer Science
+Facebook AI Research
 
-Delft University of Technology
+770 Broadway 8th Floor
 
-Mekelweg 4
+New York, NY 10003
 
-2628 CD Delft, The Netherlands
-
-Office: EWI-HB 13.300
-
-Phone: (+31) 15-2788434
-
+Email: [lvdmaaten@gmail.com](mailto:lvdmaaten@gmail.com)
 
