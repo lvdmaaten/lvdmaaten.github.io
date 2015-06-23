@@ -21,19 +21,19 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## Selected Publications
 
+* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. In _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
 * L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2014.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2014.pdf)] [[Code](../tsne/)]</small>
 * L. Zhang and L.J.P. van der Maaten. **Preserving Structure in Model-Free Tracking**. _IEEE Transactions on Pattern Analysis and Machine Intelligence_ 36(4):756-769, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/TPAMI_2014.pdf) <small>[[Code](http://visionlab.tudelft.nl/spot)]</small>
 * L.J.P. van der Maaten, M. Chen, S. Tyree, and K.Q. Weinberger. **Learning with Marginalized Corrupted Features**. In _Proceedings of the International Conference on Machine Learning (ICML), JMLR W&CP_ 28:410-418, 2013. <i class="fa fa-file-pdf-o"></i> [PDF](papers/ICML_2013.pdf) <small>[[Talk](http://videolectures.net/roks2013_maaten_features/)] [[Code](http://homepage.tudelft.nl/19j49/mcf/Marginalized_Corrupted_Features.html)]</small>
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing Non-Metric Similarities in Multiple Maps**. _Machine Learning_ 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> [PDF](papers/MachLearn_2012.pdf) <small>[[Code and demo](http://homepage.tudelft.nl/19j49/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html)]</small>
 * L.J.P. van der Maaten, M. Welling, and L.K. Saul. **Hidden-Unit Conditional Random Fields**. In _Proceedings of the International Conference on Artificial Intelligence & Statistics (AI-STATS), JMLR W&CP_ 15:479-488, 2011. <i class="fa fa-file-pdf-o"></i> [PDF](papers/AISTATS_2011a.pdf) <small>[[Code](http://cseweb.ucsd.edu/~lvdmaaten/hucrf/Hidden-Unit_Conditional_Random_Fields.html)]</small>
-* L.J.P. van der Maaten, E.O. Postma, and H.J. van den Herik. **Dimensionality Reduction: A Comparative Review**. Tilburg University Technical Report, TiCC-TR 2009-005, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](papers/TR_Dimensionality_Reduction_Review_2009.pdf) <small>[[Code](../drtoolbox/)]</small>
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2008.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)] [[Code](../tsne/)]</small>
 
 ---
 
 ## 2015
 
-* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. To appear in _IEEE Signal Processing Magazine_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
+* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. In _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
 * G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. To appear in _Computer Vision and Image Understanding_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
 * C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. In _Microbiome_ 3(1), 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Microbiome_2015.pdf)
 

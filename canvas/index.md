@@ -20,9 +20,9 @@ Canvas analysis is an important tool in art-historical studies, as it can provid
 This webpage presents the first  algorithm that is capable of performing _thread-level_ canvas analysis: the algorithm identifies each of the individual threads in the canvas radiograph, and directly measures between-distances and angles of the identified threads. We have performed two case studies to illustrate the potential merits of our thread-level canvas analysis algorithm, viz. on a small collection of paintings by Nicholas Poussin and on a small collection of paintings by Vincent Van Gogh.
 
 <br/>
-The paper describing our thread-level canvas analysis algorithm will (hopefully) be available here soon:
+The paper describing our thread-level canvas analysis algorithm is available here:
 
-* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. Under review at _IEEE Signal Processing Magazine_, 2015.
+* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. In _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/IEEESPM_2015.pdf)
 
 ---
 
