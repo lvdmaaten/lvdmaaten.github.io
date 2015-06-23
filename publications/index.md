@@ -33,9 +33,9 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
-* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. In _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
-* G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. In _Computer Vision and Image Understanding_ 135:95-108, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVIU_2015.pdf)
-* C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. In _Microbiome_ 3(1), 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Microbiome_2015.pdf)
+* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
+* G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. _Computer Vision and Image Understanding_ 135:95-108, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVIU_2015.pdf)
+* C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. _Microbiome_ 3(1), 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Microbiome_2015.pdf)
 
 ---
 
