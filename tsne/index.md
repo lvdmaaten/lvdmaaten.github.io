@@ -74,7 +74,7 @@ Some results of our experiments with t-SNE are available for download below. In 
 You may right-click on the images and select "Show image in new tab" to see a larger version of each of the images.
 
 <br />
-You may also be interested in these blog posts describing applications of t-SNE by [Andrej Karpathy](http://karpathy.ca/myblog/?p=707), [Paul Mineiro](http://www.machinedlearnings.com/2011/06/even-better-hashtag-similarity.html), [Alexander Fabisch](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0c648de22eff4a2a3e/raw/59d5bc5ed8f8bfd9ff1f7faa749d1b095aa97d5a/t-SNE.ipynb), [Justin Donaldson](http://scwn.net), and [Henry Tan](http://www.codeproject.com/Tips/788739/Visualization-of-High-Dimensional-Data-using-t-SNE).
+You may also be interested in these blog posts describing applications of t-SNE by [Andrej Karpathy](http://karpathy.ca/myblog/?p=707), [Paul Mineiro](http://www.machinedlearnings.com/2011/06/even-better-hashtag-similarity.html), [Alexander Fabisch](http://nbviewer.ipython.org/urls/gist.githubusercontent.com/AlexanderFabisch/1a0c648de22eff4a2a3e/raw/59d5bc5ed8f8bfd9ff1f7faa749d1b095aa97d5a/t-SNE.ipynb), [Justin Donaldson](http://scwn.net), [Henry Tan](http://www.codeproject.com/Tips/788739/Visualization-of-High-Dimensional-Data-using-t-SNE), and [Cyrille Rossant](https://beta.oreilly.com/learning/an-illustrated-introduction-to-the-t-sne-algorithm).
 
 ---
 
@@ -92,7 +92,7 @@ Preferably, just look at them! Notice that t-SNE does not retain distances but p
 <br />
 **How should I set the perplexity in t-SNE?**
 
-The performance of t-SNE is fairly robust under different settings of the perplexity. The most appropriate value depends on the density of your data. Loosely speaking, one could say that a larger / denser dataset requires a larger perplexity. Typical values for the perplexity range between 5 and 50. 
+The performance of t-SNE is fairly robust under different settings of the perplexity. The most appropriate value depends on the density of your data. Loosely speaking, one could say that a larger / denser dataset requires a larger perplexity. Typical values for the perplexity range between 5 and 50.
 
 <br />
 **What is perplexity anyway?**
