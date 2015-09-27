@@ -13,4 +13,4 @@ I am interested in a variety of topics in machine learning and computer vision. 
 
 ---
 
-My website on [t-SNE](tsne/) is [here](tsne/). My [Matlab Toolbox for Dimensionality Reduction](drtoolbox/) is [here](drtoolbox/). For more of my software, please have a look [here](software/).
+My website on [t-SNE](tsne/) is [here](tsne/). My [Matlab Toolbox for Dimensionality Reduction](drtoolbox/) is [here](drtoolbox/). For more software, please have a look [here](software/).
