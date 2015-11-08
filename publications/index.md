@@ -33,6 +33,8 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
+1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. To appear on _arXiv_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
+1. M. van Sebille, L.J.P. van der Maaten, L. Xie, K. Jarolimek, R. Santbergen, R.A.C.M.M. van Swaaij, K. Leifer, and M. Zemana. **Nanocrystal Size Distribution Analysis from Transmission Electron Microscopy Images**. To appear in _Nanoscale_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
 1. B.M. Hoonhout, M. Radermacher, F. Baart, and L.J.P. van der Maaten. **An Automated Method for Semantic Classification of Regions in Coastal Images**. _Coastal Engineering_ 105:1-12, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CE_2015.pdf)
 1. L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
 1. G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. _Computer Vision and Image Understanding_ 135:95-108, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVIU_2015.pdf)
