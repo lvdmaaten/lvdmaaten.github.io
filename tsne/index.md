@@ -132,9 +132,14 @@ Yes you can! For instance, we successfully applied t-SNE on a dataset of word as
 <br />
 **Can I use t-SNE to embed data in more than two dimensions?**
 
-Well, yes you can, but there is a catch. The key characteristic of t-SNE is that it solves a problem known as the crowding problem. The extent to which this problem occurs depends on the ratio between the intrinsic data dimensionality and the embedding dimensionality. So, if you embed in, say, thirty dimensions, the crowding problem is less severe than when you embed in two dimensions. As a result, it often works better if you increase the degrees of freedom of the t-distribution when embedding into thirty dimensions (or if you try to embed intrinsically very low-dimensional data such as the Swiss roll). More details about this are described in the AI-STATS paper.
+Well, yes you can, but there is a catch. The key characteristic of t-SNE is that it solves a problem known as the crowding problem. The extent to which this problem occurs depends on the ratio between the intrinsic data dimensionality and the embedding dimensionality. So, if you embed in, say, thirty dimensions, the crowding problem is less severe than when you embed in two dimensions. As a result, it often works better if you increase the degrees of freedom of the t-distribution when embedding into thirty dimensions (or if you try to embed intrinsically very low-dimensional data such as the Swiss roll). More details about this are described in [the AI-STATS paper](../publications/papers/AISTATS_2009.pdf).
 
 <br />
 **Why doesn’t t-SNE work as well as LLE or Isomap on the Swiss roll data?**
 
 When embedding the Swiss roll data, the crowding problem does not apply. So you may have to use a lighter-tailed t-distribution to embed the Swiss toll successfully (see above). But frankly... who cares about Swiss rolls when you can embed complex real-world data nicely?
+
+<br />
+**Once I have a t-SNE map, how can I embed incoming test points in that map?**
+
+t-SNE learns a non-parametric mapping, which means that it does not learn an explicit function that maps data from the input space to the map. Therefore, it is not possible to embed test points in an existing map (although you could re-run t-SNE on the full dataset). A potential approach to deal with this would be to train a multivariate regressor to predict the map location from the input data. Alternatively, you could also make such a regressor minimize the t-SNE loss directly, which is what I did in [this paper](../publications/papers/AISTATS_2009.pdf).

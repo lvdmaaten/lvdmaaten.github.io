@@ -33,7 +33,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
-1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. To appear on _arXiv_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
+1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. _arXiv_ 1511.0225, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf)
 1. M. van Sebille, L.J.P. van der Maaten, L. Xie, K. Jarolimek, R. Santbergen, R.A.C.M.M. van Swaaij, K. Leifer, and M. Zemana. **Nanocrystal Size Distribution Analysis from Transmission Electron Microscopy Images**. To appear in _Nanoscale_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
 1. B.M. Hoonhout, M. Radermacher, F. Baart, and L.J.P. van der Maaten. **An Automated Method for Semantic Classification of Regions in Coastal Images**. _Coastal Engineering_ 105:1-12, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CE_2015.pdf)
 1. L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
@@ -120,7 +120,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 1. L.J.P. van der Maaten. **A New Benchmark Dataset for Handwritten Character Recognition**. Tilburg University Technical Report, TiCC TR 2009-002, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](papers/TR New_Dataset_2009.pdf) <small>[[Dataset](misc/characters.zip) (42MB)]</small>
 
 ---
- 
+
 ## 2008
 
 1. L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2008.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)] [[Code](../tsne/)]</small>
