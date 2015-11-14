@@ -40,6 +40,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 1. G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. _Computer Vision and Image Understanding_ 135:95-108, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVIU_2015.pdf)
 1. C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. _Microbiome_ 3(1), 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Microbiome_2015.pdf)
 1. A. Mahfouz, M. van de Giessen, L.J.P. van der Maaten, S. Huisman, M.J.T. Reinders, M.J. Hawrylycz, and B.P.F. Lelieveldt. **Visualizing the spatial gene expression organization in the brain through non-linear similarity embeddings**. In _Methods_ 73:79-89, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Methods_2014.pdf)
+
 ---
 
 ## 2014
