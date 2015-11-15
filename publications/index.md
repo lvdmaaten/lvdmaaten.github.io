@@ -33,19 +33,19 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
-1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. _arXiv_ 1511.0225, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf)
+1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. _arXiv_ 1511.0225, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
 1. M. van Sebille, L.J.P. van der Maaten, L. Xie, K. Jarolimek, R. Santbergen, R.A.C.M.M. van Swaaij, K. Leifer, and M. Zemana. **Nanocrystal Size Distribution Analysis from Transmission Electron Microscopy Images**. To appear in _Nanoscale_, 2015. <i class="fa fa-file-pdf-o"></i> PDF
 1. B.M. Hoonhout, M. Radermacher, F. Baart, and L.J.P. van der Maaten. **An Automated Method for Semantic Classification of Regions in Coastal Images**. _Coastal Engineering_ 105:1-12, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CE_2015.pdf)
 1. L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
 1. G. Saygili, L.J.P. van der Maaten, and E.A. Hendriks. **Adaptive Stereo Similarity Fusion using Confidence Measures**. _Computer Vision and Image Understanding_ 135:95-108, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVIU_2015.pdf)
 1. C.C. Laczny, T. Sternal, V. Plugaru, P. Gawron, A. Atashpendar, H.H. Margossian, S. Coronado, L.J.P. van der Maaten, N. Vlassis, and P. Wilmes. **VizBin - An Application for Reference-Independent Visualization and Human-Augmented Binning of Metagenomic Data**. _Microbiome_ 3(1), 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Microbiome_2015.pdf)
+1. A. Mahfouz, M. van de Giessen, L.J.P. van der Maaten, S. Huisman, M.J.T. Reinders, M.J. Hawrylycz, and B.P.F. Lelieveldt. **Visualizing the spatial gene expression organization in the brain through non-linear similarity embeddings**. In _Methods_ 73:79-89, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Methods_2014.pdf)
 
 ---
 
 ## 2014
 
 1. L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2014.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2014.pdf)] [[Code](../tsne/)]</small>
-1. A. Mahfouz, M. van de Giessen, L.J.P. van der Maaten, S. Huisman, M.J.T. Reinders, M.J. Hawrylycz, and B.P.F. Lelieveldt. **Visualizing the spatial gene expression organization in the brain through non-linear similarity embeddings**. To appear in _Methods_, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Methods_2014.pdf)
 1. W. Abdelmoula, K. Škrášková, B. Balluff, R. Carreira, E. Tolner, B.P.F. Lelieveldt, L.J.P. van der Maaten, H. Morreau, A. van den Maagdenberg, R. Heeren, L. McDonnell, and J. Dijkstra. **Automatic Generic Registration of Mass Spectrometry Imaging Data to Histology using Nonlinear Stochastic Embedding**. _Analytical Chemistry_ 86(18):9204-9211, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/AnalChem_2014.pdf)
 1. C.R. Johnson, Jr., P. Messier, W.A. Sethares, A.G. Klein, C. Brown, A. Hoang Do, P. Klausmeyer, P. Abry, S. Jaffard, H. Wendt, S. Roux, N. Pustelnik, N. van Noord, L.J.P. van der Maaten, E.O. Postma, J. Coddington, L.A. Daffner, H. Murata, H. Wilhelm, S. Wood, and M. Messier. **Pursuing Automated Classification of Historic Photographic Papers from Raking Light Images**. _Journal of the American Institute for Conservation_ 53(3):159-170, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JAC_2014.pdf)
 1. L. Zhang, H. Dibeklioglu, and L.J.P. van der Maaten. **Speeding Up Tracking by Ignoring Features**. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 1266-1273, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVPR_2014.pdf)
