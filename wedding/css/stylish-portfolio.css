@@ -134,6 +134,13 @@ hr.small {
     right: 0;
 }
 
+#language-toggle {
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
 #sidebar-wrapper.active {
     right: 250px;
     width: 250px;
