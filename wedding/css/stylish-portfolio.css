@@ -139,6 +139,7 @@ hr.small {
     position: fixed;
     top: 0;
     left: 0;
+    text-decoration: none;
 }
 
 #sidebar-wrapper.active {
