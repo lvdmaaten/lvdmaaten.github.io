@@ -30,11 +30,16 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ---
 
+## 2016
+
+1. Y. Cheng, M.T. Wong, L.J.P. van der Maaten, and E.W. Newell. **Categorical Analysis of Human T Cell Heterogeneity with One-SENSE**. _Journal of Immunology_ 196(2):924-932, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Immunology_2015.pdf)
+
+---
+
 ## 2015
 
 1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. _arXiv_ 1511.0225, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
 1. W.M. Kouw, J.H. Krijthe, M. Loog, and L.J.P. van der Maaten. **Feature-Level Domain Adaptation**. _arXiv_ 1512.04829, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1512.04829v1.pdf)
-1. Y. Cheng, M.T. Wong, L.J.P. van der Maaten, and E.W. Newell. **Categorical Analysis of Human T Cell Heterogeneity with One-SENSE**. To appear in _Journal of Immunology_, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Immunology_2015.pdf)
 1. M. van Sebille, L.J.P. van der Maaten, L. Xie, K. Jarolimek, R. Santbergen, R.A.C.M.M. van Swaaij, K. Leifer, and M. Zemana. **Nanocrystal Size Distribution Analysis from Transmission Electron Microscopy Images**. In _Nanoscale_ 7(48):20593-20606, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://pubs.rsc.org/en/content/articlelanding/2015/nr/c5nr06292f)
 1. B.M. Hoonhout, M. Radermacher, F. Baart, and L.J.P. van der Maaten. **An Automated Method for Semantic Classification of Regions in Coastal Images**. _Coastal Engineering_ 105:1-12, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CE_2015.pdf)
 1. L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
