@@ -32,7 +32,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2016
 
-1. R. Collobert, L.J.P. van der Maaten, and A. Joulin. **Torchnet: An Open-Source Platform for (Deep) Learning Research**. _ICML Machine Learning Systems Workshop_, 2016.<i class="fa fa-file-pdf-o"></i> PDF
+1. R. Collobert, L.J.P. van der Maaten, and A. Joulin. **Torchnet: An Open-Source Platform for (Deep) Learning Research**. _ICML Machine Learning Systems Workshop_, 2016.<i class="fa fa-file-pdf-o"></i> [PDF](papers/Torchnet_2016.pdf)
 1. W. Pei, D.M.J. Tax, and L.J.P. van der Maaten. **Modeling Time Series Similarity with Siamese Recurrent Networks**. arXiv 1603.04713, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.04713v1.pdf)
 1. K. van Hecke, G. de Croon, L.J.P. van der Maaten, D. Hennes, and D. Izzo. **Persistent Self-Supervised Learning Principle: From Stereo to Monocular Vision for Obstacle Avoidance**. arXiv 1603.08047, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.08047v1.pdf)
 1. Y. Cheng, M.T. Wong, L.J.P. van der Maaten, and E.W. Newell. **Categorical Analysis of Human T Cell Heterogeneity with One-SENSE**. _Journal of Immunology_ 196(2):924-932, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Immunology_2015.pdf)
