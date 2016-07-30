@@ -41,6 +41,12 @@ Also have a look at [my separate webpage on t-SNE](../tsne/) for implementations
 
 ---
 
+## Torchnet
+
+[Torchnet](http://www.github.com/torchnet/torchnet) is a framework for torch which provides a set of abstractions aiming at encouraging code re-use as well as encouraging modular programming. Torchnet was developed by Ronan Collobert, Laurens van der Maaten, and Armand Joulin. See [this paper](../publications/papers/Torchnet_2016.pdf) for more information.
+
+---
+
 ## Divvy
 
 [Divvy](http://divvy.ucsd.edu) is a a tool for exploratory data analysis with unsupervised machine learning. [Divvy](http://divvy.ucsd.edu) was developed by [Joshua Lewis](http://www.cogsci.ucsd.edu/~josh/), me, and [Virginia de Sa](http://www.cogsci.ucsd.edu/~desa/), and is available [here](http://divvy.ucsd.edu). The code corresponds to the following paper:
