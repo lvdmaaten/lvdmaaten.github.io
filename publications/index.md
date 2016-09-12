@@ -34,6 +34,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 1. A. Jabri, A. Joulin, and L.J.P. van der Maaten. **Revisiting Visual Question Answering Baselines**. To appear in _Proceedings of the European Conference on Computer Vision (ECCV)_, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/abs/1606.08390)
 1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. To appear in _Proceedings of the European Conference on Computer Vision (ECCV)_, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
+1. W.M. Kouw, J.H. Krijthe, M. Loog, and L.J.P. van der Maaten. **Feature-Level Domain Adaptation**. To appear in _Journal of Machine Learning Research_, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1512.04829v1.pdf)
 1. R. Collobert, L.J.P. van der Maaten, and A. Joulin. **Torchnet: An Open-Source Platform for (Deep) Learning Research**. _ICML Machine Learning Systems Workshop_, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Torchnet_2016.pdf)
 1. W. Pei, D.M.J. Tax, and L.J.P. van der Maaten. **Modeling Time Series Similarity with Siamese Recurrent Networks**. arXiv 1603.04713, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.04713v1.pdf)
 1. K. van Hecke, G. de Croon, L.J.P. van der Maaten, D. Hennes, and D. Izzo. **Persistent Self-Supervised Learning Principle: From Stereo to Monocular Vision for Obstacle Avoidance**. arXiv 1603.08047, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.08047v1.pdf)
@@ -43,7 +44,6 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2015
 
-1. W.M. Kouw, J.H. Krijthe, M. Loog, and L.J.P. van der Maaten. **Feature-Level Domain Adaptation**. _arXiv_ 1512.04829, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1512.04829v1.pdf)
 1. M. van Sebille, L.J.P. van der Maaten, L. Xie, K. Jarolimek, R. Santbergen, R.A.C.M.M. van Swaaij, K. Leifer, and M. Zemana. **Nanocrystal Size Distribution Analysis from Transmission Electron Microscopy Images**. In _Nanoscale_ 7(48):20593-20606, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](http://pubs.rsc.org/en/content/articlelanding/2015/nr/c5nr06292f)
 1. B.M. Hoonhout, M. Radermacher, F. Baart, and L.J.P. van der Maaten. **An Automated Method for Semantic Classification of Regions in Coastal Images**. _Coastal Engineering_ 105:1-12, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CE_2015.pdf)
 1. L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
