@@ -18,6 +18,8 @@ image:
 
 The Matlab Toolbox for Dimensionality Reduction contains Matlab implementations of 34 techniques for dimensionality reduction and metric learning. A large number of implementations was developed from scratch, whereas other implementations are improved versions of software that was already available on the Web. The implementations in the toolbox are conservative in their use of memory. The toolbox is available for download here.
 
+Please note I am no longer actively maintaining this toolbox.
+
 <br />
 Currently, the Matlab Toolbox for Dimensionality Reduction contains the following techniques:
 
@@ -90,7 +92,7 @@ Please [click here](code/drtoolbox.tar.gz) to [download the toolbox](code/drtool
 
 **When using the toolbox, the code quits saying that some function could not be found?**
 
-Nine out of ten times, such errors is the result of you forgetting to add the the toolbox to the Matlab path. You can add the toolbox to the Matlab path by typing <code>addpath(genpath(‘installation_folder/drtoolbox’))</code>. Another probable cause is a naming conflict with another toolbox (e.g., another toolbox with a PCA function). You can investigate such errors using Matlab’s which function. If Matlab complains it cannot find the <code>bsxfun</code> function, your Matlab is likely to be very outdated. You may try using this code as a surrogate. 
+Nine out of ten times, such errors is the result of you forgetting to add the the toolbox to the Matlab path. You can add the toolbox to the Matlab path by typing <code>addpath(genpath(‘installation_folder/drtoolbox’))</code>. Another probable cause is a naming conflict with another toolbox (e.g., another toolbox with a PCA function). You can investigate such errors using Matlab’s which function. If Matlab complains it cannot find the <code>bsxfun</code> function, your Matlab is likely to be very outdated. You may try using this code as a surrogate.
 
 <br />
 **Next to reducing the dimensionality of my data, Isomap/LLE/Laplacian Eigenmaps/LTSA also reduced the number of data points? Where did these points go?**

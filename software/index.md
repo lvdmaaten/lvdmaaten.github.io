@@ -37,7 +37,7 @@ The [Matlab Toolbox for Dimensionality Reduction](../drtoolbox/) is available [h
 
 * L.J.P. van der Maaten, E.O. Postma, and H.J. van den Herik. **Dimensionality Reduction: A Comparative Review**. Tilburg University Technical Report, TiCC-TR 2009-005, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf)
 
-Also have a look at [my separate webpage on t-SNE](../tsne/) for implementations of t-SNE in various languages!
+Please note I am no longer maintaining this toolbox.
 
 ---
 
