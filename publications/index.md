@@ -32,6 +32,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2016
 
+1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. _arXiv_ 1612.06890, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf)
 1. G. Huang, Z. Liu, K.Q. Weinberger, and L.J.P. van der Maaten. **Densely Connected Convolutional Networks**. _arXiv_ 1608.06993, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1608.06993v2.pdf)
 1. A. Jabri, A. Joulin, and L.J.P. van der Maaten. **Revisiting Visual Question Answering Baselines**. In _Proceedings of the European Conference on Computer Vision (ECCV)_, pages 727-739, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/abs/1606.08390)
 1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. In _Proceedings of the European Conference on Computer Vision (ECCV)_, pages 67-84, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
