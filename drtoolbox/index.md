@@ -18,7 +18,7 @@ image:
 
 The Matlab Toolbox for Dimensionality Reduction contains Matlab implementations of 34 techniques for dimensionality reduction and metric learning. A large number of implementations was developed from scratch, whereas other implementations are improved versions of software that was already available on the Web. The implementations in the toolbox are conservative in their use of memory. The toolbox is available for download here.
 
-Please note I am no longer actively maintaining this toolbox.
+**Please note I am no longer actively maintaining this toolbox. Your mileage may vary!**
 
 <br />
 Currently, the Matlab Toolbox for Dimensionality Reduction contains the following techniques:
