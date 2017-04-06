@@ -30,6 +30,10 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ---
 
+## 2017
+
+1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf)
+
 ## 2016
 
 1. A. Li, A. Jabri, A. Joulin, and L.J.P. van der Maaten. **Learning Visual N-Grams from Web Data**. _arXiv_ 1612.09161, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.09161v1.pdf)
