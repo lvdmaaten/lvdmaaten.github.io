@@ -32,9 +32,9 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2017
 
-1. J. Johnson, B. Hariharan, L.J.P van der Maaten, J. Hoffman, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **Inferring and Executing Programs for Visual Reasoning**. _arXiv_ 1705.03633, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1705.03633.pdf)
+1. J. Johnson, B. Hariharan, L.J.P van der Maaten, J. Hoffman, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **Inferring and Executing Programs for Visual Reasoning**. _arXiv_ 1705.03633, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1705.03633.pdf) <small>[[Project Page](http://cs.stanford.edu/people/jcjohns/iep/)]</small>
 1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf)
-1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf)
+1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf) <small>[[Dataset](http://cs.stanford.edu/people/jcjohns/clevr/)]</small>
 1. G. Huang, Z. Liu, K.Q. Weinberger, and L.J.P. van der Maaten. **Densely Connected Convolutional Networks**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1608.06993v2.pdf)
 
 ## 2016
