@@ -34,12 +34,12 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 1. J. Johnson, B. Hariharan, L.J.P van der Maaten, J. Hoffman, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **Inferring and Executing Programs for Visual Reasoning**. _arXiv_ 1705.03633, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1705.03633.pdf)
 1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf)
+1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf)
+1. G. Huang, Z. Liu, K.Q. Weinberger, and L.J.P. van der Maaten. **Densely Connected Convolutional Networks**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1608.06993v2.pdf)
 
 ## 2016
 
 1. A. Li, A. Jabri, A. Joulin, and L.J.P. van der Maaten. **Learning Visual N-Grams from Web Data**. _arXiv_ 1612.09161, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.09161v1.pdf)
-1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. _arXiv_ 1612.06890, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf)
-1. G. Huang, Z. Liu, K.Q. Weinberger, and L.J.P. van der Maaten. **Densely Connected Convolutional Networks**. _arXiv_ 1608.06993, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1608.06993v2.pdf)
 1. A. Jabri, A. Joulin, and L.J.P. van der Maaten. **Revisiting Visual Question Answering Baselines**. In _Proceedings of the European Conference on Computer Vision (ECCV)_, pages 727-739, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/abs/1606.08390)
 1. A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. In _Proceedings of the European Conference on Computer Vision (ECCV)_, pages 67-84, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
 1. W.M. Kouw, J.H. Krijthe, M. Loog, and L.J.P. van der Maaten. **Feature-Level Domain Adaptation**. In _Journal of Machine Learning Research_ 17(171):1−32, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://jmlr.org/papers/volume17/15-206/15-206.pdf)
