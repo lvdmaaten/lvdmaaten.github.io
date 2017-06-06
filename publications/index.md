@@ -21,10 +21,9 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## Selected Publications
 
+* G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf)
 * A. Joulin\*, L.J.P. van der Maaten\*, A. Jabri, and N. Vasilache (\*both authors contributed equally). **Learning Visual Features from Large Weakly Supervised Data**. In _Proceedings of the European Conference on Computer Vision (ECCV)_, pages 67-84, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1511.02251v1.pdf) <small>[[Supplemental material (64 MB)](papers/SuppMatArxiv_2015.pdf)]</small>
-* L.J.P. van der Maaten and R.G. Erdmann. **Automatic Thread-Level Canvas Analysis**. In _IEEE Signal Processing Magazine_ 32(4):38-45, 2015. <i class="fa fa-file-pdf-o"></i> [PDF](papers/IEEESPM_2015.pdf) <small>[[Code](../canvas/index.html)]</small>
 * L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2014.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2014.pdf)] [[Code](../tsne/)]</small>
-* L. Zhang and L.J.P. van der Maaten. **Preserving Structure in Model-Free Tracking**. _IEEE Transactions on Pattern Analysis and Machine Intelligence_ 36(4):756-769, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/TPAMI_2014.pdf) <small>[[Code](http://visionlab.tudelft.nl/spot)]</small>
 * L.J.P. van der Maaten, M. Chen, S. Tyree, and K.Q. Weinberger. **Learning with Marginalized Corrupted Features**. In _Proceedings of the International Conference on Machine Learning (ICML), JMLR W&CP_ 28:410-418, 2013. <i class="fa fa-file-pdf-o"></i> [PDF](papers/ICML_2013.pdf) <small>[[Talk](http://videolectures.net/roks2013_maaten_features/)] [[Code](http://homepage.tudelft.nl/19j49/mcf/Marginalized_Corrupted_Features.html)]</small>
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2008.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)] [[Code](../tsne/)]</small>
 
@@ -32,6 +31,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2017
 
+1. B. Graham and L.J.P. van der Maaten. **Submanifold Sparse Convolutional Networks**. _arXiv_ 1706.01307, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1706.01307.pdf)
 1. J. Johnson, B. Hariharan, L.J.P van der Maaten, J. Hoffman, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **Inferring and Executing Programs for Visual Reasoning**. _arXiv_ 1705.03633, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1705.03633.pdf) <small>[[Project Page](http://cs.stanford.edu/people/jcjohns/iep/)]</small>
 1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf)
 1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf) <small>[[Dataset](http://cs.stanford.edu/people/jcjohns/clevr/)]</small>
