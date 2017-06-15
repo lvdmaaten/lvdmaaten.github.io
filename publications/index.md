@@ -37,6 +37,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 1. J. Johnson, B. Hariharan, L.J.P. van der Maaten, L. Fei-Fei, C.L. Zitnick, and R.B. Girshick. **CLEVR: A Diagnostic Dataset for Compositional Language and Elementary Visual Reasoning**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1612.06890v1.pdf) <small>[[Dataset](http://cs.stanford.edu/people/jcjohns/clevr/)]</small>
 1. G. Huang, Z. Liu, K.Q. Weinberger, and L.J.P. van der Maaten. **Densely Connected Convolutional Networks**. To appear in _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1608.06993v2.pdf)
 1. W. Pei, H. Dibeklioglu, D.M.J. Tax, and L.J.P. van der Maaten. **Multivariate Time-Series Classification Using the Hidden-Unit Logistic Model**. _IEEE Transactions on Neural Networks and Learning Systems_, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](http://ieeexplore.ieee.org/abstract/document/7835652/) <small>[[Code](https://github.com/wenjiepei/HULM)]</small>
+1. N. Pezzotti, B.P.F. Lelieveldt, L.J.P. van der Maaten, T. Hollt, E. Eisemann, and A. Vilanova. **Approximated and User Steerable tSNE for Progressive Visual Analytics**. _IEEE Transactions on Visualization and Computer Graphics_ 23(7), 2017. <i class="fa fa-file-pdf-o"></i> [PDF](http://ieeexplore.ieee.org/abstract/document/7473883/)
 
 ---
 
