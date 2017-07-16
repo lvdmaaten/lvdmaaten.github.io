@@ -31,6 +31,20 @@ My [t-SNE software](../tsne/) is available in a wide variety of programming lang
 
 ---
 
+## Visdom
+
+Visdom is a visualization tool for (Py)Torch and Numpy that allows the user
+to generate visualization from processes that run remotely on your workstation.
+It was developed by [Allan Jabri](https://ajabri.github.io/) and me. The project is available [on Github](https://github.com/facebookresearch/visdom).
+
+---
+
+## Torchnet
+
+[Torchnet](http://www.github.com/torchnet/torchnet) is a framework for torch which provides a set of abstractions aiming at encouraging code re-use as well as encouraging modular programming. Torchnet was developed by Ronan Collobert, Laurens van der Maaten, and Armand Joulin. See [this paper](../publications/papers/Torchnet_2016.pdf) for more information.
+
+---
+
 ## Dimensionality reduction
 
 The [Matlab Toolbox for Dimensionality Reduction](../drtoolbox/) is available [here](../drtoolbox/). It contains Matlab implementations of a lot of techniques for dimensionality reduction, intrinsic dimensionality estimators, and additional techniques for data generation, out-of-sample extension, and prewhitening. The download is available [here](../drtoolbox/). The code corresponds to the following paper:
@@ -38,12 +52,6 @@ The [Matlab Toolbox for Dimensionality Reduction](../drtoolbox/) is available [h
 * L.J.P. van der Maaten, E.O. Postma, and H.J. van den Herik. **Dimensionality Reduction: A Comparative Review**. Tilburg University Technical Report, TiCC-TR 2009-005, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/TR_Dimensionality_Reduction_Review_2009.pdf)
 
 Please note I am no longer maintaining this toolbox.
-
----
-
-## Torchnet
-
-[Torchnet](http://www.github.com/torchnet/torchnet) is a framework for torch which provides a set of abstractions aiming at encouraging code re-use as well as encouraging modular programming. Torchnet was developed by Ronan Collobert, Laurens van der Maaten, and Armand Joulin. See [this paper](../publications/papers/Torchnet_2016.pdf) for more information.
 
 ---
 
