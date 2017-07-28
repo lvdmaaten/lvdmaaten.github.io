@@ -89,6 +89,8 @@ If you want to visualize non-metric similarities such as semantic similarities, 
 
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing Non-Metric Similarities in Multiple Maps**. _Machine Learning_ 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/MachLearn_2012.pdf)
 
+An R port of this code (by [Benjamin Radford](https://benradford.github.io/)) is available [here](https://cran.r-project.org/web/packages/mmtsne/index.html).
+
 ---
 
 ## Structured prediction
