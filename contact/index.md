@@ -10,7 +10,7 @@ image:
 
 Facebook AI Research
 
-770 Broadway 8th Floor
+770 Broadway, 2nd Floor
 
 New York, NY 10003
 
