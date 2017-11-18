@@ -18,11 +18,11 @@ I am currently a Research Scientist in [Yann LeCun](http://yann.lecun.com)'s tea
 
 ## Research
 
-My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, dimensionality reduction, generative models, deep learning, time series classification, regularization, and object tracking.
+My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, dimensionality reduction, large-scale weakly supervised learning, and visual reasoning.
 
 ---
 
 ## Press and Awards
 
-[I/O Magazine](http://www.ictonderzoek.net) featured [an article](IO-Magazine_2011_september.pdf) about my research, and [Tweakers.net](http://www.tweakers.net) made [a video report](http://tweakers.net/video/6877/insyghtlab-visuele-proeftuin-van-tu-delft.html) that features my work on tracking (in Dutch). I received the [SNN Machine Learning Award 2012](http://www.mlplatform.nl) and won the [Merck Visualization Challenge](http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/) on [Kaggle](http://www.kaggle.com).
+[I/O Magazine](http://www.ictonderzoek.net) featured [an article](IO-Magazine_2011_september.pdf) about my research, and [Tweakers.net](http://www.tweakers.net) made [a video report](http://tweakers.net/video/6877/insyghtlab-visuele-proeftuin-van-tu-delft.html) that features my work on tracking (in Dutch). I received the [SNN Machine Learning Award 2012](http://www.mlplatform.nl) and won the [Merck Visualization Challenge](http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/) on [Kaggle](http://www.kaggle.com). The [DenseNet paper](https://arxiv.org/pdf/1608.06993v2.pdf) received the [CVPR 2017 Best Paper Award](http://cvpr2017.thecvf.com/program/main_conference#cvpr2017_awards).
 
