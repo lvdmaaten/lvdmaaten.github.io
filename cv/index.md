@@ -18,7 +18,7 @@ I am currently a Research Scientist in [Yann LeCun](http://yann.lecun.com)'s tea
 
 ## Research
 
-My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, dimensionality reduction, large-scale weakly supervised learning, and visual reasoning.
+My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, and cost-sensitive learning.
 
 ---
 
