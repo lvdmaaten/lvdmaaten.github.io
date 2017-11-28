@@ -32,6 +32,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 ## 2017
 
 1. A. Veit, M. Nickel, S. Belongie, and L.J.P. van der Maaten. **Separating Self-Expression and Visual Content in Hashtag Supervision**. _arXiv_ 1711.09825, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.09825.pdf)
+1. G. Huang, S. Liu, L.J.P. van der Maaten, and K.Q. Weinberger. **CondenseNet: An Efficient DenseNet using Learned Group Convolutions**. Preprint, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](http://www.cs.cornell.edu/~gaohuang/papers/condensenet.pdf) <small>[[Code](https://github.com/ShichenLiu/CondenseNet)]</small>
 1. C. Guo, M. Rana, M. Cisse, and L.J.P. van der Maaten. **Countering Adversarial Images using Input Transformations**. _arXiv_ 1711.00117, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.00117.pdf)
 1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Efficient Prediction**. _arXiv_ 1703.09844, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf) <small>[[Code](https://github.com/gaohuang/MSDNet)]</small>
 1. B. Graham and L.J.P. van der Maaten. **Submanifold Sparse Convolutional Networks**. _arXiv_ 1706.01307, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1706.01307.pdf) <small>[[Code](https://github.com/facebookresearch/SparseConvNet)]</small>
