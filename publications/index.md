@@ -31,6 +31,7 @@ For an overview of citations of my paper, please view my [Google Scholar profile
 
 ## 2017
 
+1. I. Misra, R.B. Girshick, R. Fergus, M. Hebert, A. Gupta, and L.J.P. van der Maaten. **Learning by Asking Questions**. _arXiv_ 1712.01238, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1712.01238.pdf) <small>[[Project page](http://www.cs.cmu.edu/~imisra/projects/lba/index.html)]</small>
 1. A. Veit, M. Nickel, S. Belongie, and L.J.P. van der Maaten. **Separating Self-Expression and Visual Content in Hashtag Supervision**. _arXiv_ 1711.09825, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.09825.pdf)
 1. G. Huang, S. Liu, L.J.P. van der Maaten, and K.Q. Weinberger. **CondenseNet: An Efficient DenseNet using Learned Group Convolutions**. _arXiv_ 1711.09224, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.09224.pdf) <small>[[Code](https://github.com/ShichenLiu/CondenseNet)]</small>
 1. B. Graham, M. Engelcke, and L.J.P. van der Maaten. **3D Semantic Segmentation with Submanifold Sparse Convolutional Networks**. _arXiv_ 1711.10275, 2017. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.10275.pdf)
