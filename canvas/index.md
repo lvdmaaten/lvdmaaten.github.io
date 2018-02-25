@@ -54,9 +54,12 @@ For the warp threads, thread spacings range between 1.2 and 1.9mm, whilst for we
 
 Matlab code implementing our thread-level canvas analysis algorithm is available [here](https://www.dropbox.com/s/911nvqd24r5iura/Canvas_Analysis.zip?dl=0) (552MB).
 
+<br />
 The general procedure for doing canvas analysis using this code is: (1) copy your paintings into the `paintings/` folder, (2) run the `make_annotations.m` script that lets you annotate thread crossings, and (3) run `analysis_experiment.m` which runs the analysis pipeline (it trains the crossing detector using your annotations, and then applies this detector to all paintings to produce the thread thickness maps).
 
+<br />
 The software package includes the models we trained for Poussin and Van Gogh. One could try and run those on your own canvas x-rays, but it is quite possible that the resolution, canvas type, etc. of your canvases is too different for it to work without doing your own annotations. To see what annotations look like, the annotations we did for Poussin and Van Gogh canvases are included with the code (each row in a file corresponds to the x,y coordinate of a crossing in canvas image).
 
+<br />
 As we do not possess the copyrights on the x-rays used in our study, unfortunately,
 we are unable to distribute those with the code.
