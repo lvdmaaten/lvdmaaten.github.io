@@ -15,7 +15,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-Canvas analysis is an important tool in art-historical studies, as it can provide information on whether two paintings were made on canvas that originated from the same roll. Canvas analysis algorithms analyze radiographs of paintings to identify (ir)regularities in the spacings between the canvas threads. To reduce noise, current state-of-the-art algorithms do this by averaging the signal over a number of threads, which leads to information loss in the final measurements. 
+Canvas analysis is an important tool in art-historical studies, as it can provide information on whether two paintings were made on canvas that originated from the same roll. Canvas analysis algorithms analyze radiographs of paintings to identify (ir)regularities in the spacings between the canvas threads. To reduce noise, current state-of-the-art algorithms do this by averaging the signal over a number of threads, which leads to information loss in the final measurements.
 
 This webpage presents the first  algorithm that is capable of performing _thread-level_ canvas analysis: the algorithm identifies each of the individual threads in the canvas radiograph, and directly measures between-distances and angles of the identified threads. We have performed two case studies to illustrate the potential merits of our thread-level canvas analysis algorithm, viz. on a small collection of paintings by Nicholas Poussin and on a small collection of paintings by Vincent Van Gogh.
 
@@ -52,5 +52,11 @@ For the warp threads, thread spacings range between 1.2 and 1.9mm, whilst for we
 
 ## Download
 
-Matlab code implementing our thread-level canvas analysis algorithm will be made available here soon.
+Matlab code implementing our thread-level canvas analysis algorithm is available [here](https://www.dropbox.com/s/911nvqd24r5iura/Canvas_Analysis.zip?dl=0) (552MB).
 
+The general procedure for doing canvas analysis using this code is: (1) copy your paintings into the `paintings/` folder, (2) run the `make_annotations.m` script that lets you annotate thread crossings, and (3) run `analysis_experiment.m` which runs the analysis pipeline (it trains the crossing detector using your annotations, and then applies this detector to all paintings to produce the thread thickness maps).
+
+The software package includes the models we trained for Poussin and Van Gogh. One could try and run those on your own canvas x-rays, but it is quite possible that the resolution, canvas type, etc. of your canvases is too different for it to work without doing your own annotations. To see what annotations look like, the annotations we did for Poussin and Van Gogh canvases are included with the code (each row in a file corresponds to the x,y coordinate of a crossing in canvas image).
+
+As we do not possess the copyrights on the x-rays used in our study, unfortunately,
+we are unable to distribute those with the code.
