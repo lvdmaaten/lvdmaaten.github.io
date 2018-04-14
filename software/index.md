@@ -35,7 +35,7 @@ My [t-SNE software](../tsne/) is available in a wide variety of programming lang
 
 Visdom is a visualization tool for (Py)Torch and Numpy that allows the user
 to generate visualization from processes that run remotely on your workstation.
-It was developed by [Allan Jabri](https://ajabri.github.io/) and me. The project is available [on Github](https://github.com/facebookresearch/visdom).
+It was developed by [Allan Jabri](https://ajabri.github.io/), [Jack Urbanek](https://github.com/JackUrb), and me. The project is available [on Github](https://github.com/facebookresearch/visdom).
 
 ---
 
