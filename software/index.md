@@ -70,7 +70,7 @@ My [Torch package for metric learning](https://github.com/lvdmaaten/metriclearni
 ---
 
 ## Model-free tracking
-Code for our [structure-preserving object tracker](http://visionlab.tudelft.nl/spot) is available [from a separate page](http://visionlab.tudelft.nl/spot). This code corresponds to the papers:
+Code for our structure-preserving object tracker is available [here](../software/code/SPOTv1.zip). This code corresponds to the papers:
 
 * L. Zhang and L.J.P. van der Maaten. **Preserving Structure in Model-Free Tracking**. _IEEE Transactions on Pattern Analysis and Machine Intelligence_ 36(4):756-769, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/TPAMI_2014.pdf)
 * L. Zhang, H. Dibeklioglu, and L.J.P. van der Maaten. **Speeding Up Tracking by Ignoring Features**. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 1266-1273, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/CVPR_2014.pdf)
@@ -78,14 +78,14 @@ Code for our [structure-preserving object tracker](http://visionlab.tudelft.nl/s
 ---
 
 ## Marginalized corrupted features
-Code for training classifiers with [marginalized corrupted features](http://homepage.tudelft.nl/19j49/mcf/Marginalized_Corrupted_Features.html) is available from [a separate page](http://homepage.tudelft.nl/19j49/mcf/Marginalized_Corrupted_Features.html). This code corresponds to the following paper:
+Code for training classifiers with [marginalized corrupted features](https://lvdmaaten.github.io/mcf/Marginalized_Corrupted_Features.html) is available from [a separate page](https://lvdmaaten.github.io/mcf/Marginalized_Corrupted_Features.html). This code corresponds to the following paper:
 
 * L.J.P. van der Maaten, M. Chen, S. Tyree, and K.Q. Weinberger. **Learning with Marginalized Corrupted Features**. In _Proceedings of the International Conference on Machine Learning (ICML), JMLR W&CP_ 28:410-418, 2013. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/ICML_2013.pdf) <small>[[Talk](http://videolectures.net/roks2013_maaten_features/)]</small>
 
 ---
 
 ## Multiple maps t-SNE
-If you want to visualize non-metric similarities such as semantic similarities, you can use [multiple maps t-SNE](http://homepage.tudelft.nl/19j49/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html). Matlab code for multiple maps t-SNE is available [here](http://homepage.tudelft.nl/19j49/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html). This code corresponds to the paper:
+If you want to visualize non-metric similarities such as semantic similarities, you can use [multiple maps t-SNE](https://lvdmaaten.github.io/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html). Matlab code for multiple maps t-SNE is available [here](https://lvdmaaten.github.io/multiplemaps/Multiple_maps_t-SNE/Multiple_maps_t-SNE.html). This code corresponds to the paper:
 
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing Non-Metric Similarities in Multiple Maps**. _Machine Learning_ 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/MachLearn_2012.pdf)
 
@@ -101,7 +101,7 @@ My Matlab code for structured prediction using linear CRFs and [hidden-unit CRFs
 ---
 
 ## Fisher kernel learning
-My implementation of Fisher kernels and [Fisher kernel learning](http://homepage.tudelft.nl/19j49/fisher/Fisher_Kernel_Learning.html) are available [here](http://homepage.tudelft.nl/19j49/fisher/Fisher_Kernel_Learning.html). Fisher kernel learning is described in detail in the following paper:
+My implementation of Fisher kernels and [Fisher kernel learning](https://lvdmaaten.github.io/fisher/Fisher_Kernel_Learning.html) are available [here](https://lvdmaaten.github.io/fisher/Fisher_Kernel_Learning.html). Fisher kernel learning is described in detail in the following paper:
 
 * L.J.P. van der Maaten. **Learning Discriminative Fisher Kernels**. In _Proceedings of the International Conference on Machine Learning (ICML)_, pages 217-224, 2011. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/ICML_2011.pdf)
 
