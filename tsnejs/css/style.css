@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  font-weight: 300;
+  font-size: 16px;
+}
+a:link {
+  color: #00F;
+}
+a:visited {
+  color: #00F;
+}
+a:hover {
+  color: #F00;
+}
+small {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+span.code {
+  font-family: monospace;
+}
+p.error {
+  display: none;
+  color: #F00;
+  font-weight: bold;
+}
+p.perplexity_text {
+  display: none;
+}
+#perplexity_slider {
+  width: 700px;
+}
+.legend rect {
+  fill: white;
+  stroke: black;
+  opacity: 0.8;
+}
+class.name_sheet {
+  display: none;
+}
+class.name_csv {
+  display: none;
+}

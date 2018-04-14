@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>t-SNE for Google Sheets and CSV</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/d3.slider.css" />
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300" />
+
+<!-- Javascript libraries -->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script src="js/d3.min.js"></script>
+<script src="js/d3.slider.js"></script>
+<script src="js/d3.legend.js"></script>
+<script src="js/tabletop.js"></script>
+<script src="js/rgbcolor.js"></script> 
+<script src="js/StackBlur.js"></script>
+<script src="js/html2canvas.js"></script> 
+<script src="js/canvg.js"></script> 
+<script src="js/tsne.js"></script>
+<script src="js/tsne_vis.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+
+<h1>t-SNE for <class class="name_sheet">Google Sheets</class><class class="name_csv">CSV</class></h1>
+<p>The t-SNE map of your <a href="javascript:openSheetUrl()"><class class="name_sheet">Google Sheet<class></a><class class="name_csv">CSV file</class> will be created below. It may take a few seconds to load.</p>
+
+<p class="error" id="timeout_error">Oops! Your data could not be loaded. Please check whether the specified URL is correct and make sure your spreadsheet is published to the web OR check the syntax of your CSV file.</p>
+
+<div id="embed"></div>
+<p class="perplexity_text" id="perplexity_text">Perplexity: <div id="perplexity_slider"></div><br />
+</p>
+<p><button id="exportButton" onclick="exportMapToImage();" disabled>Export map to image</button>
+</p><br />
+
+<small>This app uses <a href="https://github.com/karpathy/tsnejs">tsnejs</a>, <a href="https://github.com/jsoma/tabletop">tabletop</a>, <a href="https://code.google.com/p/canvg/">canvg</a>, <a href="http://html2canvas.hertzen.com">html2canvas</a>, <a href="https://github.com/mbostock/d3">d3</a>, <a href="https://gist.github.com/ZJONSSON/3918369">d3.legend</a>, and <a href="https://github.com/turban/d3.slider">d3.slider</a>. By <a href="http://homepage.tudelft.nl/19j49">Laurens van der Maaten</a>.</small>
+
+</body>
+</html>

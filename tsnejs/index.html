@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>t-SNE for Google Sheets</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300" />
+
+</head>
+
+<body>
+
+<h1>t-SNE for Google Sheets</h1>
+<p>Please copy-paste the key or the URL of your Google Sheet in the box below, and click: <span class="code">Make t-SNE map</span>.</p>
+
+<p>Please make sure the first row of your spreadsheet contains the (unique) identifier for each of the variables. Any column labeled <span class="code">label</span> will be treated as a label variable, and be used to color the points in the t-SNE map. Detailed instructions are available <a href="help.html">here</a>.</p>
+
+<p>
+<form action="tsne.html" method="get">
+<b>Key or URL:</b> <input type="text" size="80" name="key">
+<input type="submit" value="Make t-SNE map">
+</form>
+</p>
+
+<p>You can use the following key to see an example: <span class="code">11sMddHxU5VdWvqGsCQ6QcHvo6HBl3xe-k-iMnQc5Hcw</span></p>
+
+<p>Don't have a Google Sheet? <a href="index2.html">Upload a CSV file instead.</a></p><br /><br /><br />
+
+<small>This app uses <a href="https://github.com/karpathy/tsnejs">tsnejs</a>, <a href="https://github.com/jsoma/tabletop">tabletop</a>, <a href="https://code.google.com/p/canvg/">canvg</a>, <a href="http://html2canvas.hertzen.com">html2canvas</a>, <a href="https://github.com/mbostock/d3">d3</a>, <a href="https://gist.github.com/ZJONSSON/3918369">d3.legend</a>, and <a href="https://github.com/turban/d3.slider">d3.slider</a>. By <a href="http://homepage.tudelft.nl/19j49">Laurens van der Maaten</a>.</small>
+
+</body>
+</html>

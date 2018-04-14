@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>t-SNE for CSV</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300" />
+  
+  <script src="js/jquery-1.8.3.min.js"></script>
+  <script>
+  function loadDB(url) {
+      // load a dataset from a url with ajax
+      $.ajax({
+        url: url,
+        dataType: "text",
+        success: function(txt) {
+          $("#data").val(txt);
+        }
+      });
+    }
+  </script>
+
+</head>
+
+<body>
+
+<h1>t-SNE for CSV</h1>
+<p>Please copy-paste your CSV file in the box below, and click: <span class="code">Make t-SNE map</span>. (Note: this webpage is experimental and only supports small data sets until I get my hands on a PHP server.)</p>
+
+<p>Please make sure the first row of your data contains the (unique) identifier for each of the variables. Any column labeled <span class="code">label</span> will be treated as a label variable, and be used to color the points in the t-SNE map.</p>
+
+<p>
+<form action="tsne.html" method="get">
+<b>Data:</b><br /> 
+<textarea type="text" rows="12" cols="80" name="data" id="data"></textarea><br />
+<input type="submit" value="Make t-SNE map">
+</form>
+</p>
+
+<p>An example data set is also available: <button onclick="loadDB('data/data.csv');">Fill with example data set</button></p>
+
+<p>Don't have a CSV file? <a href="index.html">Specify a Google Sheet instead.</a></p><br /><br /><br />
+
+<small>This app uses <a href="https://github.com/karpathy/tsnejs">tsnejs</a>, <a href="https://github.com/jsoma/tabletop">tabletop</a>, <a href="https://code.google.com/p/canvg/">canvg</a>, <a href="http://html2canvas.hertzen.com">html2canvas</a>, <a href="https://github.com/mbostock/d3">d3</a>, <a href="https://gist.github.com/ZJONSSON/3918369">d3.legend</a>, and <a href="https://github.com/turban/d3.slider">d3.slider</a>. By <a href="http://homepage.tudelft.nl/19j49">Laurens van der Maaten</a>.</small>
+
+</body>
+</html>

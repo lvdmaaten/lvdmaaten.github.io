@@ -1,0 +1,25 @@
+text.title {
+    font: 15px Helvetica Neue;
+}
+
+text.node2 {
+  font: 13px Helvetica Neue;
+}
+
+text.mapno {
+  font: 10px Helvetica Neue;
+  fill: #333;
+}
+
+text.button {
+    font: 13px Helvetica Neue;
+    fill: #333;
+}
+
+input {
+    border: 2px outset #999;
+    position: absolute;
+    top: 1;
+    right: 0;
+    width: 100px;
+}

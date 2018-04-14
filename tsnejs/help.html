@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>t-SNE for Google Sheets</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:400,300" />
+
+</head> 
+
+<body>
+
+<h1>t-SNE for Google Sheets</h1>
+So you have some data in a spreadsheet on which you want to apply t-SNE? It only takes a few minutes to get your t-SNE map if you follow this simply four-step guide:
+
+<ol>
+<li><b>Import your data in a <a href="http://sheets.google.com">Google Sheet</a></b>. (Of course, you can skip this step if your data is already in a Google Sheet.) In <a href="http://sheets.google.com">Google Sheets</a>, click <span class="code">File -> Import... -> Upload</span>, and select the spreadsheet you want to upload.
+
+<br /><br /><center><img src="images/step1.png" alt="Import screen in Google Sheets" /></center><br /><br />
+
+After the upload is complete, click <span class="code">Import</span> and <span class="code">Open now </span>. The import function can deal with comma-separated files (.csv) and Excel files (.xls, .xlsx). You should now see something like this:
+
+<br /><br /><center><img src="images/step2.png" alt="Data after successful import into Google Sheets" /></center><br /><br />
+</li>
+
+<li><b>Make sure your spreadsheet has the right format.</b> The t-SNE app expects to see only a single sheet, so make sure to remove all other sheets. Measurements (points in the t-SNE map) should be in rows, whereas variables should be in columns. The app expects to see one header row that contains the (unique!) names of the variables. If you label a column with the name <span class="code">label</span>, this column will not be used in the construction of the t-SNE map but it will be used to color the points in the map. See the image above for an example of a valid sheet format.<br /><br /></li>
+
+<li><b>Make the spreadsheet available to external apps.</b> In Google Sheets, select <span class="code">File -> Publish to the web… -> Publish</span>. In the window that appears, you will see a link that you can use to access your spreadsheet. Copy this link to your clipboard (Ctrl+C on Windows, &#8984;+C on Mac).
+
+<br /><br /><center><img src="images/step3.png" alt="Make the Google Sheet available to external apps" /></center><br /><br />
+
+</li>
+
+<li><b>Make your t-SNE map!</b> Paste the copied link into the link box in the <a href="index.html">t-SNE app</a> (Ctrl+V on Windows, &#8984;+V on Mac), and click the <span class="code">Make t-SNE map</span> button. 
+
+<br /><br /><center><img src="images/step4.png" alt="Inserting the Google Sheet link into the t-SNE app" border="1px" width="650" /></center><br /><br />
+
+
+You will now be taken to a new page, in which (after a few seconds) a first version your map will appear. This map will be continuously updated. Depending on the size of your data, it may take several minutes before your final t-SNE map is ready!
+
+<br /><br /><center><img src="images/step5.png" alt="Final t-SNE map" /></center><br /><br />
+</li>
+</ol>
+
+You can use the slider to adjust the <span class="code">perplexity</span> parameter of t-SNE. Lower perplexity values generally lead to more fine-grained clusters. Have fun!<br /><br /><br/>
+
+
+<small>This app uses <a href="https://github.com/karpathy/tsnejs">tsnejs</a>, <a href="https://github.com/jsoma/tabletop">tabletop</a>, <a href="https://code.google.com/p/canvg/">canvg</a>, <a href="http://html2canvas.hertzen.com">html2canvas</a>, <a href="https://github.com/mbostock/d3">d3</a>, <a href="https://gist.github.com/ZJONSSON/3918369">d3.legend</a>, and <a href="https://github.com/turban/d3.slider">d3.slider</a>. By <a href="http://homepage.tudelft.nl/19j49">Laurens van der Maaten</a>.</small>
+
+</body>
+</html>
