@@ -34,15 +34,17 @@ Below, implementations of t-SNE in various languages are available for download.
 
 You are free to use, modify, or redistribute this software in any way you want, but only for non-commercial purposes. The use of the software is at your own risk; the authors are not responsible for any damage as a result from errors in the software.
 
+*NOTE*: t-SNE is now built-in functionality [in Matlab](https://www.mathworks.com/help/stats/tsne.html) and [in SPSS](https://www.ibm.com/support/knowledgecenter/en/SS3RA7_sub/modeler_mainhelp_client_ddita/clementine/python_nodes_tSNE.html)!
+
 **Matlab implementation** <small>([user guide](User_guide.pdf))</small> | [All platforms](code/tSNE_matlab.zip)
-**CUDA implementation** <small>(using code by [Alex](http://www.cs.toronto.edu/~kriz/))</small> | [All platforms](code/tSNE_CUDA.zip)
+**CUDA implementation** <small>(outdated; using code by [Alex](http://www.cs.toronto.edu/~kriz/))</small> | [All platforms](code/tSNE_CUDA.zip)
 **Python implementation** | [All platforms](code/tsne_python.zip)
 **Torch implementation** | [All platforms](https://github.com/clementfarabet/manifold)
 **Julia implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/TSne.jl)
 **Java implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/T-SNE-Java)
 **R implementation** <small>(by [Justin](http://scwn.net))</small> | [All platforms](http://cran.r-project.org/web/packages/tsne/)
 **JavaScript implementation** <small>(by [Andrej](http://cs.stanford.edu/people/karpathy/); [online demonstration](http://homepage.tudelft.nl/19j49/tsnejs/))</small> | [All platforms](http://cs.stanford.edu/people/karpathy/tsnejs/)
-**Parametric t-SNE** <small>(Matlab; [see here](../publications/papers/AISTATS_2009.pdf))</small> | [All platforms](code/ptsne.tar.gz)
+**Parametric t-SNE** <small>(outdated; [see here](../publications/papers/AISTATS_2009.pdf))</small> | [All platforms](code/ptsne.tar.gz)
 **Barnes-Hut t-SNE** <small>(C++, Matlab, Python, [Torch](https://github.com/clementfarabet/manifold), and [R](https://github.com/jkrijthe/Rtsne) wrappers; see [here](../publications/papers/JMLR_2014.pdf))</small> | [All platforms](code/bh_tsne.tar.gz) / [Github](https://github.com/lvdmaaten/bhtsne/)
 **MNIST Dataset** | [Matlab file](code/mnist.zip)
 
