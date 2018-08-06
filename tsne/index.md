@@ -37,7 +37,7 @@ You are free to use, modify, or redistribute this software in any way you want, 
 *NOTE*: t-SNE is now built-in functionality [in Matlab](https://www.mathworks.com/help/stats/tsne.html) and [in SPSS](https://www.ibm.com/support/knowledgecenter/en/SS3RA7_sub/modeler_mainhelp_client_ddita/clementine/python_nodes_tSNE.html)!
 
 **Matlab implementation** <small>([user guide](User_guide.pdf))</small> | [All platforms](code/tSNE_matlab.zip)
-**CUDA implementation** <small>(outdated; using code by [Alex](http://www.cs.toronto.edu/~kriz/))</small> | [All platforms](code/tSNE_CUDA.zip)
+**CUDA implementation** <small>(by [David](https://www.linkedin.com/in/david-m-chan/), [Roshan](https://www.linkedin.com/in/roshanrao1/), and [Forrest](http://forresthuang.com/); see [paper](https://arxiv.org/pdf/1807.11824.pdf))</small> | [All platforms](https://github.com/CannyLab/tsne-cuda)
 **Python implementation** | [All platforms](code/tsne_python.zip)
 **Torch implementation** | [All platforms](https://github.com/clementfarabet/manifold)
 **Julia implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/TSne.jl)
