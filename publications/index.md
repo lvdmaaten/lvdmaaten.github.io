@@ -29,10 +29,15 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ---
 
+## 2019
+
+1. Y. Wang, Z. Lai, G. Huang, B.H. Wang, L.J.P. van der Maaten, M. Campbell, and K.Q. Weinberger. **Anytime Stereo Image Depth Estimation on Mobile Devices**. To appear in _International Conference on Robotics and Automation_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1810.11408.pdf) <small>[[Code](https://github.com/mileyan/AnyNet)]</small>
+
+---
+
 ## 2018
 
 1. C. Xie, Y. Wu, L.J.P. van der Maaten, A. Yuille, and K. He. **Feature Denoising for Improving Adversarial Robustness**. In _arXiv 1812.03411_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1812.03411.pdf)
-1. Y. Wang, Z. Lai, G. Huang, B.H. Wang, L.J.P. van der Maaten, M. Campbell, and K.Q. Weinberger. **Anytime Stereo Image Depth Estimation on Mobile Devices**. In _arXiv 1810.11408_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1810.11408.pdf) <small>[[Code](https://github.com/mileyan/AnyNet)]</small>
 1. D. Mahajan, R.B. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L.J.P. van der Maaten. **Exploring the Limits of Weakly Supervised Pretraining**. In _European Conference on Computer Vision (ECCV)_, pages 185-201, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1805.00932.pdf) <small>[[Blog post](https://code.facebook.com/posts/1700437286678763/advancing-state-of-the-art-image-recognition-with-deep-learning-on-hashtags/)] [[Project page](https://facebook.ai/developers/tools/wslembeddings)]</small>
 1. I. Misra, R.B. Girshick, R. Fergus, M. Hebert, A. Gupta, and L.J.P. van der Maaten. **Learning by Asking Questions**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 11-20, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1712.01238.pdf) <small>[[Project page](http://www.cs.cmu.edu/~imisra/projects/lba/index.html)]</small>
 1. A. Veit, M. Nickel, S. Belongie, and L.J.P. van der Maaten. **Separating Self-Expression and Visual Content in Hashtag Supervision**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 5919-5927, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.09825.pdf)
@@ -40,6 +45,9 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 1. B. Graham, M. Engelcke, and L.J.P. van der Maaten. **3D Semantic Segmentation with Submanifold Sparse Convolutional Networks**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 9224-9232, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.10275.pdf)
 1. C. Guo, M. Rana, M. Cisse, and L.J.P. van der Maaten. **Countering Adversarial Images using Input Transformations**. In _International Conference on Learning Representations (ICLR)_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.00117.pdf)
 1. G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Resource Efficient Image Classification**. In _International Conference on Learning Representations (ICLR)_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf) <small>[[Code](https://github.com/gaohuang/MSDNet)]</small>
+1. K. van Hecke, G. de Croon, L.J.P. van der Maaten, D. Hennes, and D. Izzo. **Persistent Self-Supervised Learning Principle: From Stereo to Monocular Vision for Obstacle Avoidance**. In _International Journal of Micro Air Vehicles_ 10(2):186-206, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](https://journals.sagepub.com/doi/pdf/10.1177/1756829318756355)
+
+---
 
 ## 2017
 
@@ -62,7 +70,6 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 1. W.M. Kouw, J.H. Krijthe, M. Loog, and L.J.P. van der Maaten. **Feature-Level Domain Adaptation**. In _Journal of Machine Learning Research_ 17(171):1−32, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://jmlr.org/papers/volume17/15-206/15-206.pdf)
 1. R. Collobert, L.J.P. van der Maaten, and A. Joulin. **Torchnet: An Open-Source Platform for (Deep) Learning Research**. _ICML Machine Learning Systems Workshop_, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Torchnet_2016.pdf)
 1. W. Pei, D.M.J. Tax, and L.J.P. van der Maaten. **Modeling Time Series Similarity with Siamese Recurrent Networks**. arXiv 1603.04713, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.04713v1.pdf)
-1. K. van Hecke, G. de Croon, L.J.P. van der Maaten, D. Hennes, and D. Izzo. **Persistent Self-Supervised Learning Principle: From Stereo to Monocular Vision for Obstacle Avoidance**. arXiv 1603.08047, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](http://arxiv.org/pdf/1603.08047v1.pdf)
 1. Y. Cheng, M.T. Wong, L.J.P. van der Maaten, and E.W. Newell. **Categorical Analysis of Human T Cell Heterogeneity with One-SENSE**. _Journal of Immunology_ 196(2):924-932, 2016. <i class="fa fa-file-pdf-o"></i> [PDF](papers/Immunology_2015.pdf)
 
 ---
