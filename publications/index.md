@@ -33,12 +33,12 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 1. H. Hu, I. Misra, and L.J.P. van der Maaten. **Binary Image Selection (BISON): Interpretable Evaluation of Visual Grounding**. arXiv:1901.06595, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1901.06595.pdf) <small>[[Project website](http://hexianghu.com/bison/)] [[Code](https://github.com/facebookresearch/binary-image-selection)]</small>
 1. Y. Wang, Z. Lai, G. Huang, B.H. Wang, L.J.P. van der Maaten, M. Campbell, and K.Q. Weinberger. **Anytime Stereo Image Depth Estimation on Mobile Devices**. To appear in _International Conference on Robotics and Automation_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1810.11408.pdf) <small>[[Code](https://github.com/mileyan/AnyNet)]</small>
+1. C. Xie, Y. Wu, L.J.P. van der Maaten, A. Yuille, and K. He. **Feature Denoising for Improving Adversarial Robustness**. To appear in _Computer Vision and Pattern Recognition_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1812.03411.pdf)
 
 ---
 
 ## 2018
 
-1. C. Xie, Y. Wu, L.J.P. van der Maaten, A. Yuille, and K. He. **Feature Denoising for Improving Adversarial Robustness**. In _arXiv 1812.03411_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1812.03411.pdf)
 1. D. Mahajan, R.B. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L.J.P. van der Maaten. **Exploring the Limits of Weakly Supervised Pretraining**. In _European Conference on Computer Vision (ECCV)_, pages 185-201, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1805.00932.pdf) <small>[[Blog post](https://code.facebook.com/posts/1700437286678763/advancing-state-of-the-art-image-recognition-with-deep-learning-on-hashtags/)] [[Project page](https://facebook.ai/developers/tools/wslembeddings)]</small>
 1. I. Misra, R.B. Girshick, R. Fergus, M. Hebert, A. Gupta, and L.J.P. van der Maaten. **Learning by Asking Questions**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 11-20, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1712.01238.pdf) <small>[[Project page](http://www.cs.cmu.edu/~imisra/projects/lba/index.html)]</small>
 1. A. Veit, M. Nickel, S. Belongie, and L.J.P. van der Maaten. **Separating Self-Expression and Visual Content in Hashtag Supervision**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, pages 5919-5927, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1711.09825.pdf)
