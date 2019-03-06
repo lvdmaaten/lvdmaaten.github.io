@@ -33,6 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 1. H. Hu, I. Misra, and L.J.P. van der Maaten. **Binary Image Selection (BISON): Interpretable Evaluation of Visual Grounding**. arXiv:1901.06595, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1901.06595.pdf) <small>[[Project website](http://hexianghu.com/bison/)] [[Code](https://github.com/facebookresearch/binary-image-selection)]</small>
 1. Y. Wang, Z. Lai, G. Huang, B.H. Wang, L.J.P. van der Maaten, M. Campbell, and K.Q. Weinberger. **Anytime Stereo Image Depth Estimation on Mobile Devices**. To appear in _International Conference on Robotics and Automation_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1810.11408.pdf) <small>[[Code](https://github.com/mileyan/AnyNet)]</small>
+1. A. Dubey, L.J.P. van der Maaten, Z. Yalniz, Y. Li, and D. Mahajan. **Defense Against Adversarial Images using Web-Scale Nearest-Neighbor Search**. To appear in _Computer Vision and Pattern Recognition_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1903.01612.pdf)
 1. C. Xie, Y. Wu, L.J.P. van der Maaten, A. Yuille, and K. He. **Feature Denoising for Improving Adversarial Robustness**. To appear in _Computer Vision and Pattern Recognition_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1812.03411.pdf)
 
 ---
