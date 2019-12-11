@@ -33,6 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2019
 
+1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. arXiv:1912.01991, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
 1. C. Guo, T. Goldstein, A. Hannun, and L.J.P. van der Maaten. **Certified Data Removal from Machine Learning Models**. arXiv:1911.03030, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.03030.pdf)
 1. Y. Wang, W.L. Chao, K.Q. Weinberger, L.J.P. van der Maaten. **SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning**. arXiv:1911.04623, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.04623.pdf) <small>[[Code](https://github.com/mileyan/simple_shot)]</small>
 1. A. Hannun\*, B. Knott\*, S. Sengupta, and L.J.P. van der Maaten. **Privacy-Preserving Contextual Bandits**. arXiv:1901.06595, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1910.05299.pdf) <small>[[Code](https://crypten.ai/)]</small>
