@@ -156,4 +156,4 @@ Found a bug or aren't quite sure how something works? Send me an email!
 
 ## License
 
-All software on this webpage is free and open source software, distributed under the FreeBSD License.
+Unless specified otherwise, all software on this webpage is free and open source software, distributed under the FreeBSD License.
