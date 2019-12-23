@@ -29,6 +29,25 @@ My [t-SNE software](../tsne/) is available in a wide variety of programming lang
 * L.J.P. van der Maaten. **Learning a Parametric Embedding by Preserving Local Structure**. In _Proceedings of the Twelfth International Conference on Artificial Intelligence & Statistics (AI-STATS), JMLR W&CP_ 5:384-391, 2009. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/AISTATS_2009.pdf)
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/JMLR_2008.pdf) <small>[[Supplemental material](../publications/misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)]</small>
 
+
+---
+
+## CrypTen
+
+CrypTen is a research tool for secure machine learning in PyTorch. CrypTen is developed by Brian Knott, Awni Hannun, Shobha Venkataraman, Mark Ibrahim, Xing Zhou, Shubho Sengupta, and me. [CrypTen has its own website.](https://crypten.ai/)
+
+---
+
+## PHYRE
+
+PHYRE is a benchmark for physical reasoning that contains a set of simple classical mechanics puzzles in a 2D enviroment. The benchmark is designed to encourage development of sample-efficient learning algorithms that generalize well across puzzles. PHYRE was developed by Anton Bakhtin, Justin Johnson, Laura Gustafson, Ross Girshick, and me. [PHYRE has its own website.](https://phyre.ai/)
+
+---
+
+## Classy Vision
+
+Classy Vision is a framework for image and video classification in PyTorch with a modular API that makes computer-vision research easy, and with excellent support for large distributed training jobs. Classy Vision is developed by Aaron Adcock, Vinicius Reis, Mannat Singh, Zhicheng Yan, Kai Zhang, Simran Motwani, Jon Guerin, Naman Goyal, Ishan Misra, Laura Gustafson, Changhan Wang, Priya Goyal, and me. [Classy Vision has its own website.](https://classyvision.ai/)
+
 ---
 
 ## Visdom
@@ -41,7 +60,7 @@ It was developed by [Allan Jabri](https://ajabri.github.io/), [Jack Urbanek](htt
 
 ## Torchnet
 
-[Torchnet](http://www.github.com/torchnet/torchnet) is a framework for torch which provides a set of abstractions aiming at encouraging code re-use as well as encouraging modular programming. Torchnet was developed by Ronan Collobert, Laurens van der Maaten, and Armand Joulin. See [this paper](../publications/papers/Torchnet_2016.pdf) for more information.
+[Torchnet](http://www.github.com/torchnet/torchnet) is a framework for [Torch 7](http://torch.ch) which provides a set of abstractions aiming at encouraging code re-use as well as encouraging modular programming. Torchnet was developed by Ronan Collobert, Laurens van der Maaten, and Armand Joulin. See [this paper](../publications/papers/Torchnet_2016.pdf) for more information.
 
 ---
 
