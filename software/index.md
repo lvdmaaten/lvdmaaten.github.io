@@ -16,7 +16,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-This page gives an overview of all the software I have released as open-source over the years. All software on this webpage is free and open source software, distributed under the [FreeBSD License](http://en.wikipedia.org/wiki/BSD_licenses).
+This page gives an overview of all the software I have released as open-source or have substantially contributed to over the years. Unless stated otherwise, the software on this webpage is free and open source software, distributed under the [FreeBSD License](http://en.wikipedia.org/wiki/BSD_licenses).
 
 ---
 
