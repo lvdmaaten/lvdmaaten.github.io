@@ -31,6 +31,12 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ---
 
+## 2020
+
+1. C. Guo, A. Hannun, B. Knott, L.J.P. van der Maaten, M. Tygert, and R. Zhu. **Secure Multiparty Computations in Floating-Point Arithmetic**. arXiv:2001.03192, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2001.03192.pdf)
+
+---
+
 ## 2019
 
 1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. arXiv:1912.01991, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
