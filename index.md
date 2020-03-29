@@ -7,7 +7,7 @@ image:
   feature: sample-image-1.jpg
 ---
 
-I am a Research Scientist at [Facebook AI Research](http://research.facebook.com/ai) in New York, working on machine learning and computer vision. Before, I worked as an Assistant Professor at [Delft University of Technology](http://www.tudelft.nl), as a post-doctoral researcher at [UC San Diego](http://www.ucsd.edu), and as a Ph.D. student at [Tilburg University](http://www.tilburguniversity.edu).
+I am a Research Director at [Facebook AI Research](http://research.facebook.com/ai) (FAIR). I lead FAIR's New York site. My research focuses on machine learning and computer vision. Before, I worked as an Assistant Professor (with tenure) at [Delft University of Technology](http://www.tudelft.nl), as a post-doctoral researcher at [UC San Diego](http://www.ucsd.edu), and as a Ph.D. student at [Tilburg University](http://www.tilburguniversity.edu).
 
 I am interested in a variety of topics in machine learning and computer vision. Currently, I am working on embedding models, large-scale weakly supervised learning, visual reasoning, and cost-sensitive learning.
 
