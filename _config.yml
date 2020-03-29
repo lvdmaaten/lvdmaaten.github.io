@@ -34,7 +34,7 @@ owner:
   twitter: #
   facebook: lvdmaaten
   google:
-    plus: LaurensvanderMaaten
+    plus:
     analytics: UA-55688460-3
     scholar: 6GDfcqEAAAAJ  # not supported by jekyll?
     verify: 
