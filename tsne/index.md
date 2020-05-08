@@ -16,7 +16,7 @@ image:
 </div>
 </section><!-- /#table-of-contents -->
 
-t-Distributed Stochastic Neighbor Embedding (t-SNE) is a ([prize-winning](http://blog.kaggle.com/2012/11/02/t-distributed-stochastic-neighbor-embedding-wins-merck-viz-challenge/)) technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:
+t-Distributed Stochastic Neighbor Embedding (t-SNE) is a technique for dimensionality reduction that is particularly well suited for the visualization of high-dimensional datasets. The technique can be implemented via Barnes-Hut approximations, allowing it to be applied on large real-world datasets. We applied it on data sets with up to 30 million examples. The technique and its variants are introduced in the following papers:
 
 * L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/JMLR_2014.pdf) <small>[[Supplemental material](../publications/misc/Supplement_JMLR_2014.pdf)]</small>
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing Non-Metric Similarities in Multiple Maps**. _Machine Learning_ 87(1):33-55, 2012. <i class="fa fa-file-pdf-o"></i> [PDF](../publications/papers/MachLearn_2012.pdf)
