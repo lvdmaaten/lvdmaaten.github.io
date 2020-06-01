@@ -33,17 +33,17 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2020
 
+1. C. Guo, T. Goldstein, A. Hannun, and L.J.P. van der Maaten. **Certified Data Removal from Machine Learning Models**. To appear in _International Conference on Machine Learning (ICML)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.03030.pdf) <small>[[Code](https://github.com/facebookresearch/certified-removal)]</small>
+1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. To appear in _IEEE Conderence on Computer Vision and Pattern Recognition (CVPR)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
 1. C. Guo, A. Hannun, B. Knott, L.J.P. van der Maaten, M. Tygert, and R. Zhu. **Secure Multiparty Computations in Floating-Point Arithmetic**. arXiv:2001.03192, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2001.03192.pdf)
 
 ---
 
 ## 2019
 
-1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. arXiv:1912.01991, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
-1. C. Guo, T. Goldstein, A. Hannun, and L.J.P. van der Maaten. **Certified Data Removal from Machine Learning Models**. arXiv:1911.03030, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.03030.pdf) <small>[[Code](https://github.com/facebookresearch/certified-removal)]</small>
 1. Y. Wang, W.L. Chao, K.Q. Weinberger, L.J.P. van der Maaten. **SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning**. arXiv:1911.04623, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.04623.pdf) <small>[[Code](https://github.com/mileyan/simple_shot)]</small>
 1. A. Hannun\*, B. Knott\*, S. Sengupta, and L.J.P. van der Maaten. **Privacy-Preserving Contextual Bandits**. arXiv:1901.06595, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1910.05299.pdf) <small>[[Code](https://crypten.ai/)]</small>
-1. Y. Cui, Z. Gu, D. Mahajan, L.J.P. van der Maaten, S. Belongie, and S.-N. Lim. **Measuring Dataset Granularity**. arXiv:1912.10154, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.10154.pdf) 
+1. Y. Cui, Z. Gu, D. Mahajan, L.J.P. van der Maaten, S. Belongie, and S.-N. Lim. **Measuring Dataset Granularity**. arXiv:1912.10154, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.10154.pdf)
 1. A. Bakhtin, L.J.P. van der Maaten, J.C. Johnson, L. Gustafson, and R.B. Girshick. **PHYRE: A New Benchmark for Physical Reasoning**. To appear in _Advances of Neural Information Processing (NeurIPS)_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1908.05656.pdf) <small>[[Website](https://phyre.ai/)] [[Demo](https://player.phyre.ai/)] [[Blog post](https://ai.facebook.com/blog/phyre-a-new-ai-benchmark-for-physical-reasoning)] [[Code](https://github.com/facebookresearch/phyre)]
 1. T. DeVries\*, I. Misra\*, C. Wang\*, and L.J.P. van der Maaten. **Does Object Recognition Work for Everyone?**  In _CVPR Workshop on Computer Vision for Global Challenges_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1906.02659.pdf) <small>[[Blog post](https://ai.facebook.com/blog/new-way-to-assess-ai-bias-in-object-recognition-systems)]</small>
 1. H. Hu, I. Misra, and L.J.P. van der Maaten. **Evaluating Text-to-Image Matching using Binary Image Selection (BISON)**. In _ICCV Workshop Closing the Loop Between Vision and Language_, 2019. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1901.06595.pdf) <small>[[Project website](http://hexianghu.com/bison/)] [[Code](https://github.com/facebookresearch/binary-image-selection)]</small>
@@ -155,10 +155,10 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2010
 
-1. L.J.P. van der Maaten. **Fast Optimization for t-SNE**. In _Neural Information Processing Systems (NIPS) Workshop on Challenges in Data Visualization_, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_Workshop_2010.pdf)
+1. L.J.P. van der Maaten. **Fast Optimization for t-SNE**. In _Neural Information Processing Systems (NeurIPS) Workshop on Challenges in Data Visualization_, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_Workshop_2010.pdf)
 1. L.J.P. van der Maaten and E.O. Postma. **Texton-Based Analysis of Paintings**. In _SPIE Optical Engineering and Applications_, volume 7798-16, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/SPIE_2010.pdf)
-1. D.J. Hu, L.J.P. van der Maaten, Y. Cho, L.K. Saul, and S. Lerner. **Latent Variable Models for Predicting File Dependencies in Large-Scale Software Development**. In _Advances of Neural Information Processing Systems (NIPS)_, volume 23, pages 865-873, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_2010b.pdf)
-1. A. Gelfand, L.J.P. van der Maaten, Y. Chen, and M. Welling. **On Herding and the Perceptron Cycling Theorem**. In _Advances of Neural Information Processing Systems (NIPS)_, volume 23, pages 694-702, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_2010a.pdf)
+1. D.J. Hu, L.J.P. van der Maaten, Y. Cho, L.K. Saul, and S. Lerner. **Latent Variable Models for Predicting File Dependencies in Large-Scale Software Development**. In _Advances of Neural Information Processing Systems (NeurIPS)_, volume 23, pages 865-873, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_2010b.pdf)
+1. A. Gelfand, L.J.P. van der Maaten, Y. Chen, and M. Welling. **On Herding and the Perceptron Cycling Theorem**. In _Advances of Neural Information Processing Systems (NeurIPS)_, volume 23, pages 694-702, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/NIPS_2010a.pdf)
 1. R. Min, L.J.P. van der Maaten, Z. Yuan, A. Bonner, and Z. Zhang. **Deep Supervised t-Distributed Embedding**. In _Proceedings of the International Conference on Machine Learning (ICML)_, pages 791-798, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/ICML_2010.pdf) <small>[[Supplemental material](misc/Supplement_ICML_2010.pdf)]</small>
 1. L.J.P. van der Maaten and E.A. Hendriks. **Capturing Appearance Variation in Active Appearance Models**. In _Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops_, pages 34-41, 2010. <i class="fa fa-file-pdf-o"></i> [PDF](papers/CVPR_2010.pdf)
 1. L.J.P. van der Maaten. **Capturing Appearance Variation in Active Appearance Models**. Technical Report ICT-EWI 2010-002, Delft University of Technology, The Netherlands, 2010. <small>(Outdated by 2010 CVPR paper.)</small>
