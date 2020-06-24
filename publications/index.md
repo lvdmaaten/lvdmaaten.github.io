@@ -33,6 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2020
 
+1. R. Girdhar, L. Gustafson, A. Adcock, and L.J.P. van der Maaten. **Forward Prediction for Physical Reasoning**. arXiv:2006.10734, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2006.10734.pdf)
 1. C. Guo, T. Goldstein, A. Hannun, and L.J.P. van der Maaten. **Certified Data Removal from Machine Learning Models**. To appear in _International Conference on Machine Learning (ICML)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.03030.pdf) <small>[[Code](https://github.com/facebookresearch/certified-removal)]</small>
 1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. To appear in _IEEE Conderence on Computer Vision and Pattern Recognition (CVPR)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
 1. C. Guo, A. Hannun, B. Knott, L.J.P. van der Maaten, M. Tygert, and R. Zhu. **Secure Multiparty Computations in Floating-Point Arithmetic**. arXiv:2001.03192, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2001.03192.pdf)
