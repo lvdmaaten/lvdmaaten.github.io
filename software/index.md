@@ -40,7 +40,7 @@ CrypTen is a research tool for secure machine learning in PyTorch. CrypTen is de
 
 ## PHYRE
 
-PHYRE is a benchmark for physical reasoning that contains a set of simple classical mechanics puzzles in a 2D enviroment. The benchmark is designed to encourage development of sample-efficient learning algorithms that generalize well across puzzles. PHYRE was developed by Anton Bakhtin, Justin Johnson, Laura Gustafson, Ross Girshick, and me. [PHYRE has its own website.](https://phyre.ai/)
+PHYRE is a benchmark for physical reasoning that contains a set of simple classical mechanics puzzles in a 2D environment. The benchmark is designed to encourage development of sample-efficient learning algorithms that generalize well across puzzles. PHYRE was developed by Anton Bakhtin, Justin Johnson, Laura Gustafson, Ross Girshick, and me. [PHYRE has its own website.](https://phyre.ai/)
 
 ---
 
