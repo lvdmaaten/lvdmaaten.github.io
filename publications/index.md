@@ -31,6 +31,12 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ---
 
+## 2021
+
+1. R. Wu, C. Guo, F. Wu, R. Kidambi, L.J.P. van der Maaten, and K.Q. Weinberger. **Making Paper Reviewing Robust to Bid Manipulation Attacks**. arXiv:2102.06020, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.06020.pdf) <small>[[Code](https://github.com/facebookresearch/secure-paper-bidding)]</small>
+
+---
+
 ## 2020
 
 1. L.J.P. van der Maaten\* and A.Y. Hannun\*. **The Trade-Offs of Private Prediction**. arXiv:2007.05089, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2007.05089.pdf) <small>[[Code](https://github.com/facebookresearch/private_prediction)]</small>
