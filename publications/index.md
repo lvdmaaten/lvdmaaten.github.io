@@ -35,6 +35,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 1. R. Wu, C. Guo, F. Wu, R. Kidambi, L.J.P. van der Maaten, and K.Q. Weinberger. **Making Paper Reviewing Robust to Bid Manipulation Attacks**. arXiv:2102.06020, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.06020.pdf) <small>[[Code](https://github.com/facebookresearch/secure-paper-bidding)]</small>
 1. C. Guo, A. Hannun, B. Knott, L.J.P. van der Maaten, M. Tygert, and R. Zhu. **Secure Multiparty Computations in Floating-Point Arithmetic**. To appear in _Information and Inference_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2001.03192.pdf)
+1. E. Ahmed, A. Bakhtin, L.J.P. van der Maaten, and R. Girdhar. **Physical Reasoning Using Dynamics-Aware Models**. arXiv:2102.10366, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.10336.pdf)
 
 ---
 
