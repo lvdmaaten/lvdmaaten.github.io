@@ -47,7 +47,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 1. K.R. Allen\*, A. Bakhtin\*, K. Smith, J. Tenenbaum, and L.J.P. van der Maaten. **OGRE: An Object-Based Generalization for Reasoning Environment**. In _NeurIPS Workshop on Object Representations for Learning and Reasoning_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](papers/ogre.pdf) <small>[[Code](https://github.com/facebookresearch/phyre/blob/master/agents/OGRE.md)]</small>
 1. R. Girdhar, L. Gustafson, A. Adcock, and L.J.P. van der Maaten. **Forward Prediction for Physical Reasoning**. arXiv:2006.10734, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2006.10734.pdf)
 1. C. Guo, T. Goldstein, A. Hannun, and L.J.P. van der Maaten. **Certified Data Removal from Machine Learning Models**. In _International Conference on Machine Learning (ICML)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1911.03030.pdf) <small>[[Code](https://github.com/facebookresearch/certified-removal)]</small>
-1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. In _IEEE Conderence on Computer Vision and Pattern Recognition (CVPR)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
+1. I. Misra and L.J.P. van der Maaten. **Self-Supervised Learning of Pretext-Invariant Representations**. In _IEEE Conference on Computer Vision and Pattern Recognition (CVPR)_, 2020. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1912.01991.pdf)
 
 ---
 
