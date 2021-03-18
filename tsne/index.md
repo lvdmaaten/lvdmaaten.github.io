@@ -47,7 +47,7 @@ You are free to use, modify, or redistribute this software in any way you want, 
 **JavaScript implementation** <small>(by [Andrej](http://cs.stanford.edu/people/karpathy/); [online demonstration](http://homepage.tudelft.nl/19j49/tsnejs/))</small> | [All platforms](http://cs.stanford.edu/people/karpathy/tsnejs/)
 **Parametric t-SNE** <small>(outdated; [see here](../publications/papers/AISTATS_2009.pdf))</small> | [All platforms](code/ptsne.tar.gz)
 **Barnes-Hut t-SNE** <small>(C++, Matlab, Python, [Torch](https://github.com/clementfarabet/manifold), and [R](https://github.com/jkrijthe/Rtsne) wrappers; see [here](../publications/papers/JMLR_2014.pdf))</small> | [All platforms](code/bh_tsne.tar.gz) / [Github](https://github.com/lvdmaaten/bhtsne/)
-**Rust implementation of Barnes-Hut t-SNE** | [Github](https://github.com/frjnn/bhtsne)
+**Barnes-Hut t-SNE in Rust** <small>(by Francesco Iannelli)</small> | [Github](https://github.com/frjnn/bhtsne)
 **MNIST Dataset** | [Matlab file](code/mnist.zip)
 
 ---
