@@ -34,8 +34,8 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 ## 2021
 
 1. R. Wu, C. Guo, A. Hannun, and L.J.P. van der Maaten. **Fixes That Fail: Self-Defeating Improvements in Machine-Learning Systems**. arXiv:2103.11766, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2103.11766.pdf) <small>[[Code](https://github.com/facebookresearch/self_defeating_improvements)]</small>
-1. A. Hannun, C. Guo, and L.J.P. van der Maaten. **Measuring Data Leakage in Machine-Learning Models with Fisher Information**. arXiv:2102.11673, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.11673.pdf)
-1. R. Wu, C. Guo, F. Wu, R. Kidambi, L.J.P. van der Maaten, and K.Q. Weinberger. **Making Paper Reviewing Robust to Bid Manipulation Attacks**. arXiv:2102.06020, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.06020.pdf) <small>[[Code](https://github.com/facebookresearch/secure-paper-bidding)]</small>
+1. A. Hannun, C. Guo, and L.J.P. van der Maaten. **Measuring Data Leakage in Machine-Learning Models with Fisher Information**. To appear in _Proceedings of Uncertainty in Artificial Intelligence (UAI)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.11673.pdf)
+1. R. Wu, C. Guo, F. Wu, R. Kidambi, L.J.P. van der Maaten, and K.Q. Weinberger. **Making Paper Reviewing Robust to Bid Manipulation Attacks**. To appear in _Proceedings of the International Conference on Machine Learning (ICML), 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.06020.pdf) <small>[[Code](https://github.com/facebookresearch/secure-paper-bidding)]</small>
 1. C. Guo, A. Hannun, B. Knott, L.J.P. van der Maaten, M. Tygert, and R. Zhu. **Secure Multiparty Computations in Floating-Point Arithmetic**. To appear in _Information and Inference_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2001.03192.pdf)
 1. E. Ahmed, A. Bakhtin, L.J.P. van der Maaten, and R. Girdhar. **Physical Reasoning Using Dynamics-Aware Models**. arXiv:2102.10366, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.10336.pdf)
 
