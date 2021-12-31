@@ -33,7 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2021
 
-1. A. Roy Chowdhury, C. Guo, S. Jha, and L.J.P. van der Maaten. **EIFFeL: Ensuring Integrity for Federated Learning**. _arXiv:2112.12727_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2112.12727.pdf)
+1. A. Roy Chowdhury, C. Guo, S. Jha, and L.J.P. van der Maaten. **EIFFeL: Ensuring Integrity for Federated Learning**. arXiv:2112.12727, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2112.12727.pdf)
 1. B. Knott, S. Venkataraman, A.Y. Hannun, S. Sengupta, M. Ibrahim, and L.J.P. van der Maaten. **CrypTen: Secure Multi-Party Computation Meets Machine Learning**. To appear in _Advances of Neural Information Processing Systems (NeurIPS)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2109.00984.pdf) <small>[[Code](https://crypten.ai/)] [[Talk](https://www.youtube.com/watch?v=GSCALeke5Lk)]</small>
 1. R. Wu, C. Guo, A. Hannun, and L.J.P. van der Maaten. **Fixes That Fail: Self-Defeating Improvements in Machine-Learning Systems**. To appear in _Advances of Neural Information Processing Systems (NeurIPS)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2103.11766.pdf) <small>[[Code](https://github.com/facebookresearch/self_defeating_improvements)]</small>
 1. A. Hannun, C. Guo, and L.J.P. van der Maaten. **Measuring Data Leakage in Machine-Learning Models with Fisher Information**. In _Proceedings of Uncertainty in Artificial Intelligence (UAI)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.11673.pdf) <small>[[Code](https://github.com/facebookresearch/fisher_information_loss)] <span style="color:red">[Best Paper Award]</span></small>
