@@ -31,6 +31,13 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ---
 
+## 2022
+
+1. A.A. Ginart, L.J.P. van der Maaten, J. Zou, and C. Guo. **Submix: Practical Private Prediction for Large-Scale Language Models**. arXiv:2201.00971, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.00971.pdf)
+
+
+---
+
 ## 2021
 
 1. A. Roy Chowdhury, C. Guo, S. Jha, and L.J.P. van der Maaten. **EIFFeL: Ensuring Integrity for Federated Learning**. arXiv:2112.12727, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2112.12727.pdf)
