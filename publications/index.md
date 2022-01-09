@@ -33,7 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2022
 
-1. A.A. Ginart, L.J.P. van der Maaten, J. Zou, and C. Guo. **Submix: Practical Private Prediction for Large-Scale Language Models**. arXiv:2201.00971, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.00971.pdf)
+1. A.A. Ginart, L.J.P. van der Maaten, J. Zou, and C. Guo. **Submix: Practical Private Prediction for Large-Scale Language Models**. arXiv:2201.00971, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.00971.pdf) <small>[[Code](https://github.com/facebookresearch/SubMix)]</small>
 
 
 ---
