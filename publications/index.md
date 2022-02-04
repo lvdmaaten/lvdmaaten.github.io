@@ -33,6 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2022
 
+1. C. Guo, B. Karrer, K. Chaudhuri, and L.J.P. van der Maaten. **Bounding Training Data Reconstruction in Private (Deep) Learning**. arXiv:2201.12383, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.12383.pdf)
 1. M. Hall, L.J.P. van der Maaten, L. Gustafson, and A. Adcock. **A Systematic Study of Bias Amplification**. arXiv:2201.11706, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.11706.pdf)
 1. M. Singh, L. Gustafson, A. Adcock, V. de Freitas Reis, B. Gedik, R. Prateek Kosaraju, D. Mahajan, R.B. Girshick, P. Dollár, and L.J.P. van der Maaten. **Revisiting Weakly Supervised Pre-Training of Visual Perception Models**. arXiv:2201.08371, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.08371.pdf) <small>[[Code](https://github.com/facebookresearch/SWAG)]</small>
 1. R. Girdhar\*, M. Singh\*, N. Ravi\*, L.J.P. van der Maaten, A. Joulin, and I. Misra\*. **Omnivore: A Single Model for Many Visual Modalities**. arXiv:2201.08377, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.08377.pdf) <small>[[Code](https://github.com/facebookresearch/omnivore)]</small>
