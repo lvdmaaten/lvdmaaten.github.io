@@ -25,7 +25,7 @@ def main(args):
         headers = next(reader)
         word_idx = headers.index("CanonicalSMILES")
         dim1_idx = headers.index("dim1")
-        dim2_idx = headers.index("dim1")
+        dim2_idx = headers.index("dim2")
 
         # convert all rows to the format the visualization tool expects:
         for row in reader:
