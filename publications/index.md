@@ -33,6 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2022
 
+1. K. Desai, I. Misra, J.C. Johnson, and L.J.P. van der Maaten. **Scaling up Instance Segmentation using Approximately Localized Phrases**. To appear in _British Machine Vision Conference (BMVC)_, 2022.
 1. A. Roy Chowdhury, C. Guo, S. Jha, and L.J.P. van der Maaten. **EIFFeL: Ensuring Integrity for Federated Learning**. To appear in _ACM Conference on Computer and Communications Security (ACM CCS)_, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2112.12727.pdf)
 1. C. Guo, B. Karrer, K. Chaudhuri, and L.J.P. van der Maaten. **Bounding Training Data Reconstruction in Private (Deep) Learning**. To appear in _International Conference on Machine Learning (ICML)_, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.12383.pdf) <small>[[Code](https://github.com/facebookresearch/bounding_data_reconstruction)]</small>
 1. M. Hall, L.J.P. van der Maaten, L. Gustafson, and A. Adcock. **A Systematic Study of Bias Amplification**. arXiv:2201.11706, 2022. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2201.11706.pdf) <small>[[Code](https://github.com/facebookresearch/cv_bias_amplification)]</small>
