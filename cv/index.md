@@ -12,7 +12,7 @@ I am a Research Director at [Meta AI](https://ai.facebook.com/) (FAIR team). I l
 
 ## Full Resume
 
-<i class="fa fa-file-pdf-o"></i> [Download my full resume](resume.pdf) (may be slightly outdated).
+<i class="fa fa-file-pdf-o"></i> [Download my full resume](resume.pdf).
 
 ---
 
