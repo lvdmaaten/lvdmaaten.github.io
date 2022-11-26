@@ -31,19 +31,19 @@ owner:
   bio: "Research scientist in machine learning and computer vision."
   email: lvdmaaten@gmail.com
   disqus-shortname: 
-  twitter: #
-  facebook: lvdmaaten
+  twitter: lvdmaaten
+  facebook:
   google:
     plus:
     analytics: UA-55688460-3
-    scholar: 6GDfcqEAAAAJ  # not supported by jekyll?
+    scholar: 6GDfcqEAAA
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
   github: lvdmaaten
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #lvdmaaten@gmail.com
+  linkedin: laurens-van-der-maaten-1255811
   instagram: #
   lastfm: #
   tumblr: #

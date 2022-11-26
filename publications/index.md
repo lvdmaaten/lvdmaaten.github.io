@@ -17,7 +17,7 @@ image:
 </section><!-- /#table-of-contents -->
 
 
-For an overview of citations of my papers, please view my [Google Scholar profile](http://scholar.google.nl/citations?user=6GDfcqEAAAAJ&hl=nl).
+For an overview of citations of my papers, please view my [Google Scholar profile](http://scholar.google.nl/citations?user=6GDfcqEAAAAJ).
 
 ## Selected Publications
 
