@@ -33,7 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 
 ## 2023
 
-1. V.V. Ramaswamy, S.Y. Lin, D. Zhao, A.B. Adcock, L.J.P. van der Maaten, D. Ghadiyaram, and O. Russakovsky. **Beyond web-scraping: Crowd-sourcing a geographically diverse image dataset**. arXiv 2301.02560, 2023. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2301.02560.pdf) <small>[[Project page]](https://geodiverse-data-collection.cs.princeton.edu/)
+1. V.V. Ramaswamy, S.Y. Lin, D. Zhao, A.B. Adcock, L.J.P. van der Maaten, D. Ghadiyaram, and O. Russakovsky. **Beyond web-scraping: Crowd-sourcing a geographically diverse image dataset**. To appear in _Advances of Neural Information Processing Systems (NeurIPS), 2023. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2301.02560.pdf) <small>[[Project page]](https://geodiverse-data-collection.cs.princeton.edu/)
 
 ---
 
