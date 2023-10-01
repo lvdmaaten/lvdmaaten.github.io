@@ -18,7 +18,7 @@ I am a Distinguisged Research Scientist at [Meta AI](https://ai.facebook.com/), 
 
 ## Research
 
-My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, cost-sensitive learning, language modeling, and applications in the arts and sciences.
+My main research interests are in artificial intelligence. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, cost-sensitive learning, language modeling, and applications in the arts and sciences.
 
 ---
 
