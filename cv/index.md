@@ -6,7 +6,7 @@ image:
 ---
 
 
-I am a Research Director at [Meta AI](https://ai.facebook.com/) (FAIR team). I lead a team of 130+ researchers who develop AI technology to solve grand challenges in the natural sciences. Before, I worked as an Assistant Professor (with tenure) at [Delft University of Technology](http://www.tudelft.nl), and as a post-doctoral researcher under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. 
+I am a Distinguisged Research Scientist at [Meta AI](https://ai.facebook.com/), working on the next generation of foundational generative AI models. Prior, I led a team of 130+ FAIR researchers who develop AI technology to solve grand challenges in the natural sciences. Before that, I worked as an Assistant Professor (with tenure) at [Delft University of Technology](http://www.tudelft.nl), and as a post-doctoral researcher under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. 
 
 ---
 
@@ -18,7 +18,7 @@ I am a Research Director at [Meta AI](https://ai.facebook.com/) (FAIR team). I l
 
 ## Research
 
-My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, cost-sensitive learning, and applications in the arts and sciences.
+My main research interests are in machine learning and computer vision. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, cost-sensitive learning, language modeling, and applications in the arts and sciences.
 
 ---
 
