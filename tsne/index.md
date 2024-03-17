@@ -39,6 +39,7 @@ You are free to use, modify, or redistribute this software in any way you want, 
 **Matlab implementation** <small>([user guide](User_guide.pdf))</small> | [All platforms](code/tSNE_matlab.zip)
 **CUDA implementation** <small>(by [David](https://www.linkedin.com/in/david-m-chan/), [Roshan](https://www.linkedin.com/in/roshanrao1/), and [Forrest](http://forresthuang.com/); see [paper](https://arxiv.org/pdf/1807.11824.pdf))</small> | [All platforms](https://github.com/CannyLab/tsne-cuda)
 **Python implementation** | [All platforms](code/tsne_python.zip)
+**C# implementation** <small>(by [James](https://jamesmccaffrey.wordpress.com/))</small> | [All platforms](https://github.com/jdmccaffrey/tsne-csharp)
 **Go implementation** <small>(by [Daniel Salvadori](https://github.com/danaugrs))</small> | [All platforms](https://github.com/danaugrs/go-tsne)
 **Torch implementation** | [All platforms](https://github.com/clementfarabet/manifold)
 **Julia implementation** <small>(by Leif Jonsson)</small> | [All platforms](https://github.com/lejon/TSne.jl)
