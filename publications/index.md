@@ -22,12 +22,18 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 ## Selected Publications
 
 
+* AI @ Meta. **Llama 3 Model Card**. 2024. <i class="fa fa-file-pdf-o"></i> [Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) [Model](https://github.com/meta-llama/llama3)
 * B. Knott, S. Venkataraman, A.Y. Hannun, S. Sengupta, M. Ibrahim, and L.J.P. van der Maaten. **CrypTen: Secure Multi-Party Computation Meets Machine Learning**. To appear in _Advances of Neural Information Processing Systems (NeurIPS)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2109.00984.pdf) <small>[[Code](https://crypten.ai/)] [[Talk](https://www.youtube.com/watch?v=GSCALeke5Lk)]</small>
 * A. Hannun, C. Guo, and L.J.P. van der Maaten. **Measuring Data Leakage in Machine-Learning Models with Fisher Information**. In _Proceedings of Uncertainty in Artificial Intelligence (UAI)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.11673.pdf) <small>[[Code](https://github.com/facebookresearch/fisher_information_loss)] <span style="color:red">[Best Paper Award]</span></small>
 * D. Mahajan, R.B. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L.J.P. van der Maaten. **Exploring the Limits of Weakly Supervised Pretraining**. In _European Conference on Computer Vision (ECCV)_, pages 185-201, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1805.00932.pdf) <small>[[Blog post](https://code.facebook.com/posts/1700437286678763/advancing-state-of-the-art-image-recognition-with-deep-learning-on-hashtags/)] [[Project page](https://facebook.ai/developers/tools/wslembeddings)] [[Models](https://pytorch.org/hub/facebookresearch_WSL-Images_resnext/)]</small>
 * G. Huang, D. Chen, T. Li, F. Wu, L.J.P. van der Maaten, and K.Q. Weinberger. **Multi-Scale Dense Convolutional Networks for Resource Efficient Image Classification**. In _International Conference on Learning Representations (ICLR)_, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1703.09844.pdf) <small>[[Code](https://github.com/gaohuang/MSDNet)]</small>
 * L.J.P. van der Maaten. **Accelerating t-SNE using Tree-Based Algorithms**. _Journal of Machine Learning Research_ 15(Oct):3221-3245, 2014. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2014.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2014.pdf)] [[Code](../tsne/)]</small>
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2008.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)] [[Code](../tsne/)]</small>
+
+---
+## 2024
+
+1. * AI @ Meta. **Llama 3 Model Card**. 2024. <i class="fa fa-file-pdf-o"></i> [Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) [Model](https://github.com/meta-llama/llama3)
 
 ---
 
