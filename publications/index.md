@@ -22,7 +22,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 ## Selected Publications
 
 
-* AI @ Meta. **Llama 3 Model Card**. 2024. [Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) [Model](https://github.com/meta-llama/llama3)
+* AI @ Meta. **Llama 3 Model Card**. 2024. [[Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md)] [[Model](https://github.com/meta-llama/llama3)]
 * B. Knott, S. Venkataraman, A.Y. Hannun, S. Sengupta, M. Ibrahim, and L.J.P. van der Maaten. **CrypTen: Secure Multi-Party Computation Meets Machine Learning**. To appear in _Advances of Neural Information Processing Systems (NeurIPS)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2109.00984.pdf) <small>[[Code](https://crypten.ai/)] [[Talk](https://www.youtube.com/watch?v=GSCALeke5Lk)]</small>
 * A. Hannun, C. Guo, and L.J.P. van der Maaten. **Measuring Data Leakage in Machine-Learning Models with Fisher Information**. In _Proceedings of Uncertainty in Artificial Intelligence (UAI)_, 2021. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2102.11673.pdf) <small>[[Code](https://github.com/facebookresearch/fisher_information_loss)] <span style="color:red">[Best Paper Award]</span></small>
 * D. Mahajan, R.B. Girshick, V. Ramanathan, K. He, M. Paluri, Y. Li, A. Bharambe, and L.J.P. van der Maaten. **Exploring the Limits of Weakly Supervised Pretraining**. In _European Conference on Computer Vision (ECCV)_, pages 185-201, 2018. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/1805.00932.pdf) <small>[[Blog post](https://code.facebook.com/posts/1700437286678763/advancing-state-of-the-art-image-recognition-with-deep-learning-on-hashtags/)] [[Project page](https://facebook.ai/developers/tools/wslembeddings)] [[Models](https://pytorch.org/hub/facebookresearch_WSL-Images_resnext/)]</small>
@@ -33,7 +33,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 ---
 ## 2024
 
-1. * AI @ Meta. **Llama 3 Model Card**. 2024. [Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md) [Model](https://github.com/meta-llama/llama3)
+1. AI @ Meta. **Llama 3 Model Card**. 2024. [[Model card](https://github.com/meta-llama/llama3/blob/main/MODEL_CARD.md)] [[Model](https://github.com/meta-llama/llama3)]
 1. K. Chaudhuri, C. Guo, L.J.P. van der Maaten, S. Mahloujifar, and M. Tygert. **Guarantees of confidentiality via Hammersley-Chapman-Robbins bounds**. arXiv:2404.02866, 2024. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2404.02866)
 
 ---
