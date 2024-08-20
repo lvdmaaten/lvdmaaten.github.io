@@ -34,7 +34,7 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 ## 2024
 
 1. Llama Team, AI @ Meta. **The Llama 3 Herd of Models**. arXiv:2407.21783, 2024. <i class="fa fa-file-pdf-o"></i> [Paper](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) <small>[[Model](https://llama.meta.com/llama-downloads/)]</small>
-1. K. Chaudhuri, C. Guo, L.J.P. van der Maaten, S. Mahloujifar, and M. Tygert. **Guarantees of confidentiality via Hammersley-Chapman-Robbins bounds**. arXiv:2404.02866, 2024. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2404.02866)
+1. K. Chaudhuri, C. Guo, L.J.P. van der Maaten, S. Mahloujifar, and M. Tygert. **Guarantees of confidentiality via Hammersley-Chapman-Robbins bounds**. To appear in _Transactions on Machine Learning Research_, 2024. <i class="fa fa-file-pdf-o"></i> [PDF](https://arxiv.org/pdf/2404.02866)
 
 ---
 
