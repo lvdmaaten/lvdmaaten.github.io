@@ -31,6 +31,13 @@ For an overview of citations of my papers, please view my [Google Scholar profil
 * L.J.P. van der Maaten and G.E. Hinton. **Visualizing High-Dimensional Data Using t-SNE**. _Journal of Machine Learning Research_ 9(Nov):2579-2605, 2008. <i class="fa fa-file-pdf-o"></i> [PDF](papers/JMLR_2008.pdf) <small>[[Supplemental material](misc/Supplement_JMLR_2008.pdf)] [[Talk](https://www.youtube.com/watch?v=RJVL80Gg3lA&list=UUtXKDgv1AVoG88PLl8nGXmw)] [[Code](../tsne/)]</small>
 
 ---
+## 2025
+
+1. B. Duderstadt, Z. Nussbaum, and L.J.P. van der Maaten. **NOMAD Projection**. arXiv:2505.15511, 2025. <i class="fa fa-file-pdf-o"></i> [Paper](https://arxiv.org/pdf/2505.15511) 
+1. Y.-Y. Tsai, C. Guo, J. Yang, and L.J.P. van der Maaten. **RoFL: Robust Fingerprinting of Language Models**. arXiv:2505.12682, 2025. <i class="fa fa-file-pdf-o"></i> [Paper](https://arxiv.org/pdf/2505.12682) <small>[[Code](https://github.com/yunyuntsai/robust_llm_fingerprint)]</small>
+
+---
+
 ## 2024
 
 1. Llama Team, AI @ Meta. **The Llama 3 Herd of Models**. arXiv:2407.21783, 2024. <i class="fa fa-file-pdf-o"></i> [Paper](https://ai.meta.com/research/publications/the-llama-3-herd-of-models/) <small>[[Model](https://llama.meta.com/llama-downloads/)]</small>
