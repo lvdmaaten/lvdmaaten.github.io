@@ -6,9 +6,9 @@ image:
 ---
 
 
-I am a Distinguished Research Scientist at [Meta AI](https://ai.facebook.com/), working on the next generation of foundational generative AI models (Llama). Most recently, I have focused on the development of reasoning models. I gave a [keynote at CVPR 2025](https://www.youtube.com/watch?v=NWf9-ccdm-g) on the work of the Llama team.
+I am a Member of Technical Staff at [Anthropic](https://www.anthropic.com/), working on [Claude](https://claude.ai/) post-training. 
 
-Prior, I led a team of 130+ Meta AI researchers who developed technology to solve grand challenges in the natural sciences. My team delivered research breakthroughs including [Cicero](https://www.science.org/doi/10.1126/science.ade9097), [ESM-2 and ESMFold](https://www.science.org/doi/10.1126/science.ade2574), [Llama](https://arxiv.org/abs/2302.13971), and [OC22](https://arxiv.org/abs/2206.08917).
+Previously, I was a Distinguished Research Scientist at [Meta AI](https://ai.facebook.com/) and technical co-lead for Llama 3. I gave a [keynote at CVPR 2025](https://www.youtube.com/watch?v=NWf9-ccdm-g) on the work of the Llama team. Before working on Llama, I led a team of 130+ Meta AI researchers who developed technology to solve grand challenges in the natural sciences. My team delivered research breakthroughs including [Cicero](https://www.science.org/doi/10.1126/science.ade9097), [ESM-2 and ESMFold](https://www.science.org/doi/10.1126/science.ade2574), [Llama](https://arxiv.org/abs/2302.13971), and [OC22](https://arxiv.org/abs/2206.08917).
 
 Before joining Meta, I worked as an Assistant Professor (with tenure) at [Delft University of Technology](http://www.tudelft.nl), and as a post-doctoral researcher under supervision of [Lawrence Saul](http://cseweb.ucsd.edu/~saul/) at [University of California, San Diego](http://www.ucsd.edu). I received my Ph.D. from [Tilburg University](https://www.tilburguniversity.edu) in 2009 under the supervision of [Eric Postma](http://www.ericpostma.nl) and [Jaap van den Herik](http://www.law.leidenuniv.nl/org/metajuridica/elaw/medewerkers/jaapvandenherik.html). I have visited the labs of [Geoffrey Hinton](http://www.cs.toronto.edu/~hinton/) at [University of Toronto](http://www.utoronto.ca), and of [Maja Pantic](http://ibug.doc.ic.ac.uk/maja/) at [Imperial College London](http://www3.imperial.ac.uk). I obtained an M.Sc. degree in computer science from [Maastricht University](http://www.maastrichtuniversity.nl) in 2005. 
 
@@ -22,8 +22,7 @@ Before joining Meta, I worked as an Assistant Professor (with tenure) at [Delft 
 
 ## Research
 
-My main research interests are in artificial intelligence. In particular, I am interested in embedding models, large-scale weakly supervised learning, visual reasoning, cost-sensitive learning, language modeling, and applications in the arts and sciences.
-
+I am interested in a variety of topics in artificial intelligence. In particular, I am interested in embedding models, large-scale weakly supervised learning, reasoning, cost-sensitive learning, and language modeling.
 ---
 
 ## Awards
