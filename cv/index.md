@@ -23,6 +23,7 @@ Before joining Meta, I worked as an Assistant Professor (with tenure) at [Delft 
 ## Research
 
 I am interested in a variety of topics in artificial intelligence. In particular, I am interested in embedding models, large-scale weakly supervised learning, reasoning, cost-sensitive learning, and language modeling.
+
 ---
 
 ## Awards
